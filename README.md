@@ -1,6 +1,6 @@
 # House design gallery
 
-Eight whole-house renovation concepts, 52 current image boards, room galleries, side-by-side comparisons, existing cost estimates and downloadable feedback.
+Eleven whole-house renovation concepts, 73 current image boards, room galleries, side-by-side comparisons, existing cost estimates and downloadable feedback.
 
 Plain static HTML, CSS and JavaScript. Open `index.html` locally, or use GitHub Pages from the root of the `main` branch. `.nojekyll` preserves the file structure.
 
