@@ -1,0 +1,2742 @@
+{
+  "date": "2026-10-02",
+  "currency": "AED",
+  "core": {
+    "id": "core",
+    "title": "Whole-house shared work",
+    "items": [
+      {
+        "id": "setup",
+        "label": "Protection, mobilisation and final clean",
+        "lo": 6000,
+        "hi": 10000,
+        "basis": "One occupied townhouse; temporary protection and contractor preliminaries",
+        "source": "A",
+        "zone": ""
+      },
+      {
+        "id": "strip",
+        "label": "Remove existing dry-area floors",
+        "lo": 3850,
+        "hi": 6600,
+        "basis": "110 m² × AED 35–60; wet-room strip-out elsewhere",
+        "source": "A",
+        "zone": ""
+      },
+      {
+        "id": "floor",
+        "label": "Stone-look porcelain supply + installation",
+        "lo": 17600,
+        "hi": 30800,
+        "basis": "110 m² × AED 160–280 installed; 110 m² is an assumed take-off",
+        "source": "S1",
+        "zone": ""
+      },
+      {
+        "id": "edges",
+        "label": "Skirting, transitions and local levelling",
+        "lo": 2500,
+        "hi": 4500,
+        "basis": "Allowance beyond normal tile laying",
+        "source": "A",
+        "zone": ""
+      },
+      {
+        "id": "paint",
+        "label": "Ordinary internal paint and making good",
+        "lo": 10000,
+        "hi": 18000,
+        "basis": "Dry rooms and ceilings; feature finishes priced by room",
+        "source": "S2",
+        "zone": ""
+      },
+      {
+        "id": "ac",
+        "label": "AC inspection, cleaning and minor servicing",
+        "lo": 2000,
+        "hi": 4000,
+        "basis": "Existing system retained; no replacement",
+        "source": "A",
+        "zone": ""
+      },
+      {
+        "id": "design",
+        "label": "Interior design and coordinated working drawings",
+        "lo": 6000,
+        "hi": 10000,
+        "basis": "Paid professional documentation allowance; excludes extension/pool engineering",
+        "source": "A",
+        "zone": ""
+      },
+      {
+        "id": "approval",
+        "label": "Interior approvals, coordination and fee allowance",
+        "lo": 5000,
+        "hi": 11000,
+        "basis": "Provisional combined allowance; not an official fee schedule",
+        "source": "S2",
+        "zone": ""
+      },
+      {
+        "id": "outsidepaint",
+        "label": "External house walls: repairs and repainting",
+        "lo": 9000,
+        "hi": 18000,
+        "basis": "Provisional front/rear facade, porch and carport surfaces; no scaffold-intensive rebuild or garden feature-wall duplication.",
+        "source": "A"
+      }
+    ],
+    "image": "",
+    "note": ""
+  },
+  "rooms": [
+    {
+      "id": "r01",
+      "title": "01 · Carport",
+      "items": [
+        {
+          "id": "clean",
+          "label": "Pressure clean and reseal existing paving",
+          "lo": 500,
+          "hi": 900,
+          "basis": "Two-car bay; lump sum pending measured area",
+          "source": "A"
+        },
+        {
+          "id": "repairs",
+          "label": "Local paving / drainage repairs",
+          "lo": 1000,
+          "hi": 2500,
+          "basis": "Existing layout and structure retained",
+          "source": "A"
+        },
+        {
+          "id": "lights",
+          "label": "Replace carport light fittings",
+          "lo": 1000,
+          "hi": 2200,
+          "basis": "Two existing ceiling points",
+          "source": "A"
+        }
+      ],
+      "note": "Retain two parking spaces and existing roof; wall/ceiling paint in shared work."
+    },
+    {
+      "id": "r02",
+      "title": "02 · Entry court & entrance",
+      "items": [
+        {
+          "id": "path",
+          "label": "Path and step repairs / finish refresh",
+          "lo": 2000,
+          "hi": 4000,
+          "basis": "Provisional small entry path; survey quantity needed",
+          "source": "A"
+        },
+        {
+          "id": "plant",
+          "label": "Compact planters and planting",
+          "lo": 1000,
+          "hi": 2200,
+          "basis": "Keep meter cupboards and entry route accessible",
+          "source": "A"
+        },
+        {
+          "id": "light",
+          "label": "Porch / path lighting",
+          "lo": 1200,
+          "hi": 2500,
+          "basis": "Existing power points, small local alterations",
+          "source": "A"
+        },
+        {
+          "id": "lock",
+          "label": "Entrance smart lock supply and fitting",
+          "lo": 1200,
+          "hi": 2500,
+          "basis": "One lock; door retained",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "note": "Retain entrance door; add smart lock."
+    },
+    {
+      "id": "r03",
+      "title": "03 · Foyer & ground hallway",
+      "items": [
+        {
+          "id": "joinery",
+          "label": "Shallow shoe / key storage and mirror",
+          "lo": 2500,
+          "hi": 5000,
+          "basis": "Existing foyer 2.08 × 1.28 m; shallow unit, final door clearances to be checked",
+          "source": "A"
+        },
+        {
+          "id": "lights",
+          "label": "Hall and foyer lighting",
+          "lo": 1000,
+          "hi": 1800,
+          "basis": "Local fitting replacement; no full suspended ceiling",
+          "source": "A"
+        }
+      ],
+      "note": "Continuous floor and ordinary paint already in shared work."
+    },
+    {
+      "id": "r04",
+      "title": "04 · Powder room",
+      "items": [
+        {
+          "id": "strip",
+          "label": "Strip-out and preparation",
+          "lo": 1500,
+          "hi": 2500,
+          "basis": "Small under-stair bathroom",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tile",
+          "label": "Wet protection and wall / floor finishes",
+          "lo": 4000,
+          "hi": 6500,
+          "basis": "Existing slope retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "vanity",
+          "label": "Walnut vanity and mirror storage",
+          "lo": 4000,
+          "hi": 7000,
+          "basis": "Compact unit",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "fixtures",
+          "label": "WC, basin and tap",
+          "lo": 2500,
+          "hi": 4500,
+          "basis": "No integrated bidet WC in this room",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "services",
+          "label": "Plumbing, lighting and ventilation work",
+          "lo": 2500,
+          "hi": 4500,
+          "basis": "Existing fixture positions",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+      "note": ""
+    },
+    {
+      "id": "r05",
+      "title": "05 · Former laundry cupboard",
+      "items": [
+        {
+          "id": "oldlaundry",
+          "label": "Convert old laundry cupboard to storage",
+          "lo": 1500,
+          "hi": 2500,
+          "basis": "Reuse existing doors if suitable",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "note": "Convert 0.96 × 0.94 m cupboard to coat / cleaning storage after relocating laundry."
+    },
+    {
+      "id": "r06",
+      "title": "06 · Maid room → household storage",
+      "items": [
+        {
+          "id": "joinery",
+          "label": "Closed cabinets and shallow shelving",
+          "lo": 7000,
+          "hi": 13000,
+          "basis": "Approx. 4–5 linear metres; final survey needed",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "worktop",
+          "label": "Folding worktop and organisation fittings",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Baskets, pull-outs and folding top",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+      "note": ""
+    },
+    {
+      "id": "r07",
+      "title": "07 · Maid bathroom → laundry & aquarium utility",
+      "items": [
+        {
+          "id": "strip",
+          "label": "Remove obsolete bathroom fixtures",
+          "lo": 1500,
+          "hi": 2500,
+          "basis": "Retain useful connections",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "wet",
+          "label": "Wet floor / wall repairs and waterproofing",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Former maid bathroom approx. 3.2 m²",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "machines",
+          "label": "Washer + dryer stack with kit",
+          "lo": 4500,
+          "hi": 8000,
+          "basis": "New appliances; product allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "cabinet",
+          "label": "Moisture-resistant storage and worktop",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Compact rear arrangement",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sink",
+          "label": "Deep sink, tap and aquarium connections",
+          "lo": 2000,
+          "hi": 4000,
+          "basis": "Existing RO/filter system reused where serviceable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "services",
+          "label": "Drainage, electrical, ventilation and light",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Local alterations",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+      "note": ""
+    },
+    {
+      "id": "r08",
+      "title": "08 · Kitchen",
+      "items": [],
+      "note": "Default: replacement cabinetry in the current U-shape. Black kitchen appliances retained; no fixed island in the original footprint."
+    },
+    {
+      "id": "r09",
+      "title": "09 · Living & dining",
+      "items": [],
+      "note": "Aquarium retained, larger TV, concealed wiring and dining for six."
+    },
+    {
+      "id": "r10",
+      "title": "10 · Garden & ground terrace",
+      "items": [],
+      "note": "Main garden 51.35 m² measured; recessed terrace 6.24 m² assumed."
+    },
+    {
+      "id": "r11",
+      "title": "11 · Staircase & photography gallery",
+      "items": [
+        {
+          "id": "stone",
+          "label": "Clean / refinish existing stone",
+          "lo": 2500,
+          "hi": 4500,
+          "basis": "No new treads or balustrade",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "photos",
+          "label": "Print and frame photography",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "Approx. six pieces, including one large print",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "light",
+          "label": "Gallery and stair lighting",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Local fittings and wiring",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+      "note": ""
+    },
+    {
+      "id": "r12",
+      "title": "12 · Upstairs hall & master vestibule",
+      "items": [
+        {
+          "id": "linen",
+          "label": "Refurbish existing linen cupboards",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Retain existing carcasses; door / shelf repairs",
+          "source": "A"
+        },
+        {
+          "id": "lights",
+          "label": "Landing and vestibule lighting",
+          "lo": 900,
+          "hi": 1600,
+          "basis": "Existing points",
+          "source": "A"
+        },
+        {
+          "id": "detail",
+          "label": "Door hardware, mirror and finishing details",
+          "lo": 1000,
+          "hi": 2000,
+          "basis": "Local refresh; no replacement of all internal doors",
+          "source": "A"
+        }
+      ],
+      "note": "Floors and ordinary paint included once in shared work."
+    },
+    {
+      "id": "r13",
+      "title": "13 · Master bedroom",
+      "items": [
+        {
+          "id": "head",
+          "label": "Oak / upholstered headboard",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "One bed wall",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "bed",
+          "label": "Bed base and mattress",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Allowance for new bed; omit if reusing",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "bedside",
+          "label": "Two bedside units",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "Compact ready-made or simple local joinery",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "curtains",
+          "label": "Curtains and tracks",
+          "lo": 2500,
+          "hi": 4500,
+          "basis": "Existing terrace opening",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Bedside and ceiling lighting",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Fittings and local wiring",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "soft",
+          "label": "Rug, bedding and framed print",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Artwork production allowance",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/07 Master Bedroom - Calm Oak.png",
+      "note": ""
+    },
+    {
+      "id": "r14",
+      "title": "14 · Master terrace",
+      "items": [
+        {
+          "id": "floor",
+          "label": "Floor, drain and sealant touch-ups",
+          "lo": 1200,
+          "hi": 2200,
+          "basis": "Approx. 2.80 × 1.30 m assumed; no full slab repair",
+          "source": "A"
+        },
+        {
+          "id": "seat",
+          "label": "Compact seating and small table",
+          "lo": 1200,
+          "hi": 2200,
+          "basis": "Small ready-made set",
+          "source": "A"
+        },
+        {
+          "id": "shade",
+          "label": "Compact shade provision",
+          "lo": 2000,
+          "hi": 4500,
+          "basis": "Attachment / permissions to be checked",
+          "source": "A"
+        },
+        {
+          "id": "green",
+          "label": "Planter and lighting",
+          "lo": 500,
+          "hi": 1200,
+          "basis": "Limited items, keep drainage clear",
+          "source": "A"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "r15",
+      "title": "15 · Master walk-in closet",
+      "items": [
+        {
+          "id": "joinery",
+          "label": "L-shaped wardrobe re-fit",
+          "lo": 7500,
+          "hi": 14000,
+          "basis": "Approx. 4 linear metres; oak veneer / quality laminate",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "light",
+          "label": "Integrated lighting and mirror",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Fittings and local electrical work",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+      "note": ""
+    },
+    {
+      "id": "r16",
+      "title": "16 · Master bathroom",
+      "items": [],
+      "note": "Integrated bidet WC and sliding door allowance; survey wall and plumbing constraints."
+    },
+    {
+      "id": "r17",
+      "title": "17 · Family bathroom",
+      "items": [],
+      "note": "Default: full renovation retaining layout and both access routes."
+    },
+    {
+      "id": "r18",
+      "title": "18 · Bedroom 2 / guest room",
+      "items": [
+        {
+          "id": "bed",
+          "label": "Compact sofa bed / guest bed",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Flexible guest use, replacing existing sofa if desired",
+          "source": "A"
+        },
+        {
+          "id": "storage",
+          "label": "Wardrobe refresh and shallow storage",
+          "lo": 2000,
+          "hi": 4500,
+          "basis": "Retain viable existing storage; not a new full-wall wardrobe",
+          "source": "A"
+        },
+        {
+          "id": "curtains",
+          "label": "Curtains and tracks",
+          "lo": 1800,
+          "hi": 3200,
+          "basis": "Existing full-height opening",
+          "source": "A"
+        },
+        {
+          "id": "lights",
+          "label": "Light fitting and bedside/task light",
+          "lo": 600,
+          "hi": 1200,
+          "basis": "Existing points",
+          "source": "A"
+        },
+        {
+          "id": "soft",
+          "label": "Bedding, side table and framed photograph",
+          "lo": 1200,
+          "hi": 2400,
+          "basis": "One coordinated guest set",
+          "source": "A"
+        }
+      ],
+      "note": "Keep current window and room footprint. Dry flooring and paint are shared costs."
+    },
+    {
+      "id": "r19",
+      "title": "19 · Office",
+      "items": [
+        {
+          "id": "reuse",
+          "label": "Shelf/frame reuse and cable management",
+          "lo": 800,
+          "hi": 1600,
+          "basis": "Existing desk, chair and monitors retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "curtain",
+          "label": "Curtain refresh",
+          "lo": 1500,
+          "hi": 2800,
+          "basis": "Existing opening",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "feature",
+          "label": "Accent wall and accessories",
+          "lo": 800,
+          "hi": 1600,
+          "basis": "Ordinary paint/floor already in shared works",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+      "note": ""
+    },
+    {
+      "id": "r20",
+      "title": "20 · Office balcony",
+      "items": [
+        {
+          "id": "floor",
+          "label": "Balcony floor / local repairs",
+          "lo": 900,
+          "hi": 1600,
+          "basis": "2.79 m²; no structural slab work",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "chair",
+          "label": "One chair and coffee shelf",
+          "lo": 1200,
+          "hi": 2500,
+          "basis": "Compact ready-made furniture",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Small retractable shade and fitting",
+          "lo": 2500,
+          "hi": 5000,
+          "basis": "Fixing details not verified",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plantlight",
+          "label": "Planter and light",
+          "lo": 700,
+          "hi": 1500,
+          "basis": "One compact set",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+      "note": ""
+    }
+  ],
+  "kitchens": [
+    {
+      "id": "kitchen_full",
+      "title": "New kitchen within current footprint",
+      "items": [
+        {
+          "id": "demo",
+          "label": "Selective removal and preparation",
+          "lo": 2000,
+          "hi": 4000,
+          "basis": "Remove current kitchen; existing wall and service layout retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "cabinet",
+          "label": "Replacement cabinets, fronts and drawer fittings",
+          "lo": 23000,
+          "hi": 42000,
+          "basis": "Small U-shaped kitchen; locally made quality laminate / veneer, not imported bespoke",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "counter",
+          "label": "Countertops and splashback",
+          "lo": 7000,
+          "hi": 12000,
+          "basis": "Compact kitchen; quartz / porcelain allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sink",
+          "label": "Sink and tap",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "One sink and mixer",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "mep",
+          "label": "Local plumbing, electrical and task lighting",
+          "lo": 3500,
+          "hi": 6000,
+          "basis": "Appliance locations retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "prep",
+          "label": "Pull-out prep board and storage fittings",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "No fixed island",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/09 Kitchen - Two Routes.png",
+      "note": "Existing black fridge and range retained. Full replacement carcasses would add about AED 10,000–20,000 before contingency/VAT."
+    },
+    {
+      "id": "kitchen_reuse",
+      "title": "Refine existing kitchen",
+      "items": [
+        {
+          "id": "demo",
+          "label": "Selective removal and preparation",
+          "lo": 2000,
+          "hi": 4000,
+          "basis": "Keep sound existing carcasses and layout",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "cabinet",
+          "label": "New fronts, drawer upgrades and repairs",
+          "lo": 13000,
+          "hi": 22000,
+          "basis": "Small U-shape; re-use viable carcasses, not full bespoke replacement",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "counter",
+          "label": "Countertops and splashback",
+          "lo": 7000,
+          "hi": 12000,
+          "basis": "Compact kitchen; quartz / porcelain allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sink",
+          "label": "Sink and tap",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "One sink and mixer",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "mep",
+          "label": "Local plumbing, electrical and task lighting",
+          "lo": 3500,
+          "hi": 6000,
+          "basis": "Appliance locations retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "prep",
+          "label": "Pull-out prep board and storage fittings",
+          "lo": 1800,
+          "hi": 3500,
+          "basis": "No fixed island",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/09 Kitchen - Two Routes.png",
+      "note": "Existing black fridge and range retained. Full replacement carcasses would add about AED 10,000–20,000 before contingency/VAT."
+    },
+    {
+      "id": "kitchen_extend",
+      "title": "Enclose terrace + rework kitchen",
+      "items": [
+        {
+          "id": "demo",
+          "label": "Selective removal and preparation",
+          "lo": 4000,
+          "hi": 7000,
+          "basis": "Includes opening preparation",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "cabinet",
+          "label": "Replacement kitchen cabinetry",
+          "lo": 22000,
+          "hi": 38000,
+          "basis": "Reconfigured local custom cabinets",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "counter",
+          "label": "Countertops and splashback",
+          "lo": 10000,
+          "hi": 18000,
+          "basis": "Includes island top",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sink",
+          "label": "Sink and tap",
+          "lo": 2000,
+          "hi": 4000,
+          "basis": "One sink and mixer",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "mep",
+          "label": "Plumbing, electrical, cooling and task lighting",
+          "lo": 8000,
+          "hi": 15000,
+          "basis": "Altered layout and added enclosed space",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "prep",
+          "label": "Small prep island joinery",
+          "lo": 6000,
+          "hi": 10000,
+          "basis": "Approx. 1.2 × 0.6 m; no stools",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "shell",
+          "label": "Extension shell, opening support, roof and glazing",
+          "lo": 45000,
+          "hi": 85000,
+          "basis": "Approx. 6.24 m² added space; major provisional allowance",
+          "source": "S1",
+          "zone": ""
+        },
+        {
+          "id": "finish",
+          "label": "New extension floor, finish and drainage interfaces",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Added floor only; existing kitchen floor remains in shared works",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "engineer",
+          "label": "Additional structural design / approval allowance",
+          "lo": 6000,
+          "hi": 12000,
+          "basis": "Extension-specific; any developer added-area charge excluded",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/09 Kitchen - Two Routes.png",
+      "note": "Unverified footprint and structure. Automatically removes the exterior terrace works from the combined budget. Not an approval or buildability assessment."
+    }
+  ],
+  "baths": [
+    {
+      "id": "bath_keep",
+      "title": "Retain the bath",
+      "items": [
+        {
+          "id": "strip",
+          "label": "Strip-out, protection and disposal",
+          "lo": 2000,
+          "hi": 3500,
+          "basis": "Master bathroom only",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "waterproof",
+          "label": "Wet-area preparation and waterproofing",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Approx. 5.3 m² floor plus wet walls",
+          "source": "S2",
+          "zone": ""
+        },
+        {
+          "id": "tile",
+          "label": "Wall + floor tiling",
+          "lo": 5000,
+          "hi": 8500,
+          "basis": "Approx. 25–30 m² tiled surfaces; allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "vanity",
+          "label": "Vanity and illuminated mirrored storage",
+          "lo": 5000,
+          "hi": 8500,
+          "basis": "One compact custom unit",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "wc",
+          "label": "Integrated bidet WC with connections",
+          "lo": 5000,
+          "hi": 12000,
+          "basis": "Product/brand not selected; provisional supply + fit",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "services",
+          "label": "Plumbing, electrical and ventilation alterations",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Retain service zones; no whole-house replumb",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "door",
+          "label": "Sliding door and local making good",
+          "lo": 2500,
+          "hi": 5000,
+          "basis": "Surface slider allowance; pocket wall feasibility unresolved",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "wetfixture",
+          "label": "Bath, screen and shower fittings",
+          "lo": 4500,
+          "hi": 7500,
+          "basis": "Replace/renew the existing built-in bath arrangement",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/08 Master Bathroom - Bath or Shower.png",
+      "note": ""
+    },
+    {
+      "id": "bath_shower",
+      "title": "Walk-in shower",
+      "items": [
+        {
+          "id": "strip",
+          "label": "Strip-out, protection and disposal",
+          "lo": 2000,
+          "hi": 3500,
+          "basis": "Master bathroom only",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "waterproof",
+          "label": "Wet-area preparation and waterproofing",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Approx. 5.3 m² floor plus wet walls",
+          "source": "S2",
+          "zone": ""
+        },
+        {
+          "id": "tile",
+          "label": "Wall + floor tiling",
+          "lo": 5000,
+          "hi": 8500,
+          "basis": "Approx. 25–30 m² tiled surfaces; allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "vanity",
+          "label": "Vanity and illuminated mirrored storage",
+          "lo": 5000,
+          "hi": 8500,
+          "basis": "One compact custom unit",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "wc",
+          "label": "Integrated bidet WC with connections",
+          "lo": 5000,
+          "hi": 12000,
+          "basis": "Product/brand not selected; provisional supply + fit",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "services",
+          "label": "Plumbing, electrical and ventilation alterations",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Retain service zones; no whole-house replumb",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "door",
+          "label": "Sliding door and local making good",
+          "lo": 2500,
+          "hi": 5000,
+          "basis": "Surface slider allowance; pocket wall feasibility unresolved",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "wetfixture",
+          "label": "Shower glass, drain and shower fittings",
+          "lo": 5500,
+          "hi": 9500,
+          "basis": "Bath removed; rear wet zone rebuilt",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/08 Master Bathroom - Bath or Shower.png",
+      "note": ""
+    }
+  ],
+  "family": [
+    {
+      "id": "family_full",
+      "title": "Full family bathroom",
+      "items": [
+        {
+          "id": "strip",
+          "label": "Strip out existing finishes and fittings",
+          "lo": 2000,
+          "hi": 3500,
+          "basis": "Existing compact Jack-and-Jill bathroom",
+          "source": "A"
+        },
+        {
+          "id": "waterproof",
+          "label": "Waterproofing and substrate preparation",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Wet zone, test and make good",
+          "source": "A"
+        },
+        {
+          "id": "tile",
+          "label": "Wall and floor tiling",
+          "lo": 5500,
+          "hi": 9000,
+          "basis": "Porcelain; measured take-off not available",
+          "source": "A"
+        },
+        {
+          "id": "vanity",
+          "label": "Double vanity, basins, taps and mirror",
+          "lo": 6500,
+          "hi": 11000,
+          "basis": "Keep double-basin arrangement",
+          "source": "A"
+        },
+        {
+          "id": "wc",
+          "label": "WC replacement",
+          "lo": 1500,
+          "hi": 3000,
+          "basis": "Standard WC, existing position",
+          "source": "A"
+        },
+        {
+          "id": "shower",
+          "label": "Shower fittings and screen",
+          "lo": 4000,
+          "hi": 7000,
+          "basis": "Existing shower footprint",
+          "source": "A"
+        },
+        {
+          "id": "services",
+          "label": "Plumbing, ventilation and lighting",
+          "lo": 3000,
+          "hi": 5000,
+          "basis": "Local work; keep door routes clear",
+          "source": "A"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "familybath",
+      "title": "Family bathroom light refresh",
+      "items": [
+        {
+          "id": "refresh",
+          "label": "Taps, mirror, lighting and accessories",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Keep tiles, shower glass and sanitaryware",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "",
+      "note": ""
+    }
+  ],
+  "living": [
+    {
+      "id": "living_warm",
+      "title": "Warm contemporary",
+      "items": [
+        {
+          "id": "tvwall",
+          "label": "TV joinery + feature finish",
+          "lo": 10500,
+          "hi": 20000,
+          "basis": "Approx. 3 m walnut-veneer media wall and subtle feature finish",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tank",
+          "label": "Aquarium base cabinet / service provision",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Existing tank retained; specialist support and access allowance",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sofa",
+          "label": "Sofa",
+          "lo": 7000,
+          "hi": 14000,
+          "basis": "One quality ready-made sofa",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Dining table + six chairs",
+          "lo": 5000,
+          "hi": 10000,
+          "basis": "Approx. 1.8 m table; locally sourced set",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tv",
+          "label": "75-inch TV, bracket and cable installation",
+          "lo": 4000,
+          "hi": 8500,
+          "basis": "Provisional electronics allowance; no premium OLED commitment",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Dining / feature lighting",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Fixture, driver and local wiring",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "curtains",
+          "label": "Curtains and tracks",
+          "lo": 3000,
+          "hi": 5500,
+          "basis": "Existing openings; no replacement glazing",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "soft",
+          "label": "Coffee table, rug and accessories",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "One coordinated set",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/01 Living - Warm Contemporary.png",
+      "note": ""
+    },
+    {
+      "id": "living_japandi",
+      "title": "Japandi",
+      "items": [
+        {
+          "id": "tvwall",
+          "label": "TV joinery + feature finish",
+          "lo": 8000,
+          "hi": 15000,
+          "basis": "Approx. 3 m oak-veneer cabinet and limited slats",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tank",
+          "label": "Aquarium base cabinet / service provision",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Existing tank retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sofa",
+          "label": "Sofa",
+          "lo": 6000,
+          "hi": 11000,
+          "basis": "One quality ready-made sofa",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Dining table + six chairs",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Compact oak-look / oak set",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tv",
+          "label": "75-inch TV, bracket and cable installation",
+          "lo": 4000,
+          "hi": 8500,
+          "basis": "Same TV allowance as other styles",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Dining / feature lighting",
+          "lo": 1800,
+          "hi": 4000,
+          "basis": "Paper-style pendant plus local wiring",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "curtains",
+          "label": "Curtains and tracks",
+          "lo": 2500,
+          "hi": 4500,
+          "basis": "Existing openings",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "soft",
+          "label": "Coffee table, rug and accessories",
+          "lo": 2500,
+          "hi": 5000,
+          "basis": "Simple coordinated set",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/02 Living - Japandi.png",
+      "note": ""
+    },
+    {
+      "id": "living_med",
+      "title": "Mediterranean",
+      "items": [
+        {
+          "id": "tvwall",
+          "label": "TV joinery + feature finish",
+          "lo": 10000,
+          "hi": 18000,
+          "basis": "Whitewashed-veneer cabinet plus applied plaster arch",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tank",
+          "label": "Aquarium base cabinet / service provision",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Existing tank retained",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "sofa",
+          "label": "Sofa",
+          "lo": 6500,
+          "hi": 12000,
+          "basis": "One linen-look sofa",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Dining table + six chairs",
+          "lo": 4500,
+          "hi": 8500,
+          "basis": "Compact timber / woven-back set",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "tv",
+          "label": "75-inch TV, bracket and cable installation",
+          "lo": 4000,
+          "hi": 8500,
+          "basis": "Same TV allowance as other styles",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Dining / feature lighting",
+          "lo": 2200,
+          "hi": 4500,
+          "basis": "Woven pendant and local wiring",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "curtains",
+          "label": "Curtains and tracks",
+          "lo": 2800,
+          "hi": 5000,
+          "basis": "Existing openings",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "soft",
+          "label": "Coffee table, rug and accessories",
+          "lo": 2800,
+          "hi": 5500,
+          "basis": "Simple coordinated set",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/03 Living - Mediterranean.png",
+      "note": ""
+    }
+  ],
+  "outdoors": [
+    {
+      "id": "garden_original_dining",
+      "title": "Earlier · Dining + greenery",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 3600,
+          "hi": 7000,
+          "basis": "20 m² × AED 180–350; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 12000,
+          "hi": 22000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 4000,
+          "hi": 9000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Seating, cushions and side table",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 2500,
+          "hi": 6000,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1635,
+          "hi": 3036,
+          "basis": "23.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 6500,
+          "hi": 12000,
+          "basis": "Unpictured standard 6.24 m² terrace allowance added for like-for-like comparison",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/04 Garden - Dining and Greenery.png",
+      "note": "Includes an unpictured standard terrace allowance so all eight options cover the same exterior areas.",
+      "pool": false,
+      "pavingArea": 20,
+      "lawnArea": 23.35,
+      "plantArea": 8,
+      "featureArea": 0,
+      "earlier": true
+    },
+    {
+      "id": "garden_original_sunken",
+      "title": "Earlier · Sunken seating",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 3960,
+          "hi": 7200,
+          "basis": "18 m² × AED 220–400; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 9000,
+          "hi": 16000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 4000,
+          "hi": 8500,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Included in sunken package",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1337,
+          "hi": 2483,
+          "basis": "19.1 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 6500,
+          "hi": 12000,
+          "basis": "Unpictured standard 6.24 m² terrace allowance added for like-for-like comparison",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 18000,
+          "hi": 32000,
+          "basis": "6.25 m²; walls, waterproofing, drainage, steps, cushions",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 5000,
+          "hi": 9000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/05 Garden - Sunken Seating.png",
+      "note": "Includes an unpictured standard terrace allowance so all eight options cover the same exterior areas.",
+      "pool": false,
+      "pavingArea": 18,
+      "lawnArea": 19.1,
+      "plantArea": 8,
+      "featureArea": 6.25,
+      "earlier": true
+    },
+    {
+      "id": "garden_original_pool",
+      "title": "Earlier · Mediterranean pool",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 5000,
+          "hi": 9000,
+          "basis": "20 m² × AED 250–450; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 9000,
+          "hi": 17000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 4000,
+          "hi": 9000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 0,
+          "hi": 0,
+          "basis": "No extra main-garden lounge",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1145,
+          "hi": 2126,
+          "basis": "16.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 6500,
+          "hi": 12000,
+          "basis": "Unpictured standard 6.24 m² terrace allowance added for like-for-like comparison",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 60000,
+          "hi": 95000,
+          "basis": "7 m² water area; depths and plant location unconfirmed",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 15000,
+          "hi": 25000,
+          "basis": "Included budget allowance; can be omitted before procurement",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Placeholder; final compliant design and specification unresolved",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 8000,
+          "hi": 15000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/06 Garden - Plunge Pool.png",
+      "note": "Includes an unpictured standard terrace allowance so all eight options cover the same exterior areas.",
+      "pool": true,
+      "pavingArea": 20,
+      "lawnArea": 16.35,
+      "plantArea": 8,
+      "featureArea": 7,
+      "earlier": true
+    },
+    {
+      "id": "garden_trav",
+      "title": "New · Travertine Courtyard",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 8400,
+          "hi": 15600,
+          "basis": "24 m² × AED 350–650; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Quality parasol + base / fittings",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 5000,
+          "hi": 10000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 4500,
+          "hi": 8500,
+          "basis": "Seating, cushions and side table",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 4000,
+          "hi": 7500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1355,
+          "hi": 2516,
+          "basis": "19.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 10000,
+          "hi": 18000,
+          "basis": "6.24 m² assumed; includes the right-hand view of this board",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/Outside/01 Travertine Courtyard/Design Board.png",
+      "note": "Includes both the garden and recessed terrace views.",
+      "pool": false,
+      "pavingArea": 24,
+      "lawnArea": 19.35,
+      "plantArea": 8,
+      "featureArea": 0,
+      "earlier": false
+    },
+    {
+      "id": "garden_terra",
+      "title": "New · Mediterranean Terracotta",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 6000,
+          "hi": 10800,
+          "basis": "24 m² × AED 250–450; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 9000,
+          "hi": 17000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 4500,
+          "hi": 9000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 5500,
+          "hi": 10000,
+          "basis": "Seating, cushions and side table",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 4000,
+          "hi": 7500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1355,
+          "hi": 2516,
+          "basis": "19.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 12000,
+          "hi": 21000,
+          "basis": "6.24 m² assumed; includes the right-hand view of this board",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/Outside/02 Mediterranean Terracotta/Design Board.png",
+      "note": "Includes both the garden and recessed terrace views.",
+      "pool": false,
+      "pavingArea": 24,
+      "lawnArea": 19.35,
+      "plantArea": 8,
+      "featureArea": 0,
+      "earlier": false
+    },
+    {
+      "id": "garden_travpool",
+      "title": "New · Travertine + Pool",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 7000,
+          "hi": 13000,
+          "basis": "20 m² × AED 350–650; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 10000,
+          "hi": 18000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 5000,
+          "hi": 10000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 0,
+          "hi": 0,
+          "basis": "No extra main-garden lounge",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 4000,
+          "hi": 7500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1215,
+          "hi": 2256,
+          "basis": "17.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 13000,
+          "hi": 22000,
+          "basis": "6.24 m² assumed; includes the right-hand view of this board",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 60000,
+          "hi": 95000,
+          "basis": "6 m² water area; depths and plant location unconfirmed",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 15000,
+          "hi": 25000,
+          "basis": "Included budget allowance; can be omitted before procurement",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Placeholder; final compliant design and specification unresolved",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 8000,
+          "hi": 15000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/Outside/03 Mediterranean Travertine and Pool/Design Board.png",
+      "note": "Includes both the garden and recessed terrace views.",
+      "pool": true,
+      "pavingArea": 20,
+      "lawnArea": 17.35,
+      "plantArea": 8,
+      "featureArea": 6,
+      "earlier": false
+    },
+    {
+      "id": "garden_tropical",
+      "title": "New · Contemporary Tropical",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 4200,
+          "hi": 7350,
+          "basis": "21 m² × AED 200–350; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 13000,
+          "hi": 23000,
+          "basis": "Approx. 9–12 m² structure; support and fixings included",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 5500,
+          "hi": 11000,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 4500,
+          "hi": 9000,
+          "basis": "Seating, cushions and side table",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 6500,
+          "hi": 11000,
+          "basis": "Approx. 10.35 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1400,
+          "hi": 2600,
+          "basis": "20 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 13500,
+          "hi": 23500,
+          "basis": "6.24 m² assumed; includes the right-hand view of this board",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/Outside/04 Contemporary Tropical/Design Board.png",
+      "note": "Includes both the garden and recessed terrace views.",
+      "pool": false,
+      "pavingArea": 21,
+      "lawnArea": 20,
+      "plantArea": 10.35,
+      "featureArea": 0,
+      "earlier": false
+    },
+    {
+      "id": "garden_desert",
+      "title": "New · Desert Modern",
+      "items": [
+        {
+          "id": "prep",
+          "label": "Site clearance, base preparation and drainage",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Main garden; pool / sunken excavation priced separately",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "paving",
+          "label": "Main garden paving + edging",
+          "lo": 3960,
+          "hi": 7260,
+          "basis": "22 m² × AED 180–330; provisional layout quantity",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "shade",
+          "label": "Main dining shade",
+          "lo": 4000,
+          "hi": 8000,
+          "basis": "Shade sail, posts and foundations",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "dining",
+          "label": "Outdoor dining table + six chairs",
+          "lo": 4500,
+          "hi": 8500,
+          "basis": "Locally available mid-range furniture allowance; not exact products",
+          "source": "S4",
+          "zone": ""
+        },
+        {
+          "id": "lounge",
+          "label": "Main garden lounge / bench",
+          "lo": 5500,
+          "hi": 10500,
+          "basis": "Seating, cushions and side table",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "water",
+          "label": "Bowl / wall water feature",
+          "lo": 3000,
+          "hi": 6500,
+          "basis": "Includes pump and local connection where shown",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "plant",
+          "label": "Planting, pots and drip irrigation",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lawn",
+          "label": "Lawn rework / replacement allowance",
+          "lo": 1495,
+          "hi": 2776,
+          "basis": "21.35 m² × AED 70–130; artificial turf allowance",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "lights",
+          "label": "Garden lighting and local electrics",
+          "lo": 3500,
+          "hi": 6500,
+          "basis": "Approx. 6–8 light points and wiring",
+          "source": "S3",
+          "zone": ""
+        },
+        {
+          "id": "terrace",
+          "label": "Recessed terrace: floor, steps, seating and shade",
+          "lo": 9500,
+          "hi": 16500,
+          "basis": "6.24 m² assumed; includes the right-hand view of this board",
+          "source": "A",
+          "zone": "terrace"
+        },
+        {
+          "id": "sunken",
+          "label": "Sunken lounge excavation / build / seating",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "pool",
+          "label": "Plunge pool shell, tiling, filtration and basic MEP",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not in this option",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "chiller",
+          "label": "Pool temperature-control system",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "S5",
+          "zone": ""
+        },
+        {
+          "id": "cover",
+          "label": "Pool cover / safety provision allowance",
+          "lo": 0,
+          "hi": 0,
+          "basis": "Not applicable",
+          "source": "A",
+          "zone": ""
+        },
+        {
+          "id": "outfees",
+          "label": "Outdoor design / engineering / approval allowance",
+          "lo": 3000,
+          "hi": 6000,
+          "basis": "Separate outdoor scope; not an official published fee schedule",
+          "source": "S3",
+          "zone": ""
+        }
+      ],
+      "image": "../07 Earlier Concepts/Outside/05 Desert Modern/Design Board.png",
+      "note": "Includes both the garden and recessed terrace views.",
+      "pool": false,
+      "pavingArea": 22,
+      "lawnArea": 21.35,
+      "plantArea": 8,
+      "featureArea": 0,
+      "earlier": false
+    }
+  ],
+  "packages": [
+    {
+      "id": "warm",
+      "title": "Warm contemporary",
+      "palette": "Walnut, warm stone-look porcelain and soft neutral fabrics.",
+      "living": "living_warm",
+      "outdoor": "garden_original_dining"
+    },
+    {
+      "id": "japandi",
+      "title": "Japandi + sunken garden",
+      "palette": "Pale oak, restrained joinery, natural textiles and a recessed garden lounge.",
+      "living": "living_japandi",
+      "outdoor": "garden_original_sunken"
+    },
+    {
+      "id": "med",
+      "title": "Mediterranean + plunge pool",
+      "palette": "Warm white, textured accents, woven details and an outdoor plunge pool.",
+      "living": "living_med",
+      "outdoor": "garden_original_pool"
+    },
+    {
+      "id": "trav",
+      "title": "Travertine courtyard",
+      "palette": "Travertine-look indoor porcelain, pale timber and natural travertine outdoors.",
+      "living": "living_med",
+      "outdoor": "garden_trav"
+    },
+    {
+      "id": "terra",
+      "title": "Mediterranean terracotta",
+      "palette": "Warm-white rooms, terracotta accents and a terracotta courtyard.",
+      "living": "living_med",
+      "outdoor": "garden_terra"
+    },
+    {
+      "id": "travpool",
+      "title": "Mediterranean travertine + pool",
+      "palette": "Light stone-look interiors with natural travertine paving and a small pool.",
+      "living": "living_med",
+      "outdoor": "garden_travpool"
+    },
+    {
+      "id": "tropical",
+      "title": "Contemporary tropical",
+      "palette": "Dark timber accents, green textiles and a leafy garden.",
+      "living": "living_warm",
+      "outdoor": "garden_tropical"
+    },
+    {
+      "id": "desert",
+      "title": "Desert modern",
+      "palette": "Sand, simple pale joinery, bronze details and rust accents.",
+      "living": "living_japandi",
+      "outdoor": "garden_desert"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Renovel — Dubai renovation component benchmarks",
+      "url": "https://renovel.ae/blog/villa-renovation-cost-dubai/",
+      "note": "Published porcelain installation AED 150–300/m² and natural stone AED 350–700/m². Used to check material bands, not to multiply the full 207 m² built-up area."
+    },
+    {
+      "id": "S2",
+      "title": "Liger Interiors — room and finish cost guide",
+      "url": "https://ligerinteriors.com/how-much-does-villa-renovation-cost-in-dubai-in-2026/",
+      "note": "Published standard bathrooms AED 25,000–35,000 and ordinary 3-bedroom interior painting AED 8,000–15,000. Our room amounts vary for scope, retained fittings and selected finish allowances."
+    },
+    {
+      "id": "S3",
+      "title": "Dream Floor Landscaping — 2026 supplied-and-installed rates",
+      "url": "https://dfloorlandscaping.com/landscaping-cost-in-dubai-2026/",
+      "note": "Published outdoor porcelain AED 180–350/m², natural stone AED 300–800/m², pergolas AED 8,000–25,000 and artificial turf AED 60–150/m². Small fixed-cost items are separately allowed here."
+    },
+    {
+      "id": "S4",
+      "title": "IKEA UAE — outdoor dining retail reference",
+      "url": "https://www.ikea.com/ae/en/cat/outdoor-dining-sets-21967/",
+      "note": "A table with six chairs was listed at AED 2,995 when checked. This is a lower retail reference, not the products shown; design allowances are higher for finish, delivery and selection."
+    },
+    {
+      "id": "S5",
+      "title": "Smart Cities — small pool and equipment guide",
+      "url": "https://smartcitiesuae.com/swimming-pool-construction-cost-dubai/",
+      "note": "Published 3 × 2 m plunge pools AED 60,000–90,000; heating/chilling AED 15,000–40,000. Model separates decking, equipment, fees and contingency. Published pool service AED 5,000–12,000/year excludes extra temperature-control utility use."
+    },
+    {
+      "id": "S6",
+      "title": "Expert Pools — contrasting small-pool benchmark",
+      "url": "https://expertpools-llc.com/blog/swimming-pool-cost-dubai/",
+      "note": "Advertised compact plunge pool range AED 25,000–45,000 with exclusions. Contractor guides differ substantially; the model uses the higher pool band for this un-surveyed site rather than treating the lowest advertised figure as a quote."
+    },
+    {
+      "id": "S7",
+      "title": "Federal Tax Authority — standard VAT rate",
+      "url": "https://tax.gov.ae/en/faq.aspx?keyword=What+is+the+standard+rate+of+VAT+in+the+UAE%3F",
+      "note": "The standard UAE VAT rate is 5%. The report applies a conservative 5% budget allowance to the subtotal plus contingency; actual fee and invoice tax treatment may differ."
+    }
+  ],
+  "extras": [
+    {
+      "id": "understairs",
+      "title": "Under-stair storage (if void permits)",
+      "items": [
+        {
+          "id": "joinery",
+          "label": "Small custom storage unit",
+          "lo": 5000,
+          "hi": 10000,
+          "basis": "Site survey required; powder room retained",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "appliances",
+      "title": "Replace retained kitchen appliances",
+      "items": [
+        {
+          "id": "appliances",
+          "label": "Fridge, range and dishwasher allowance",
+          "lo": 10000,
+          "hi": 18000,
+          "basis": "Optional; base kitchens retain appliances",
+          "source": "A",
+          "zone": ""
+        }
+      ],
+      "image": "",
+      "note": ""
+    },
+    {
+      "id": "mep",
+      "title": "Major AC / MEP contingency option",
+      "items": [
+        {
+          "id": "mep",
+          "label": "Provisional replacement / upgrade reserve",
+          "lo": 20000,
+          "hi": 80000,
+          "basis": "Additional to routine servicing; scope unverified, not evidence that replacement is required",
+          "source": "S2"
+        }
+      ],
+      "note": ""
+    }
+  ]
+}

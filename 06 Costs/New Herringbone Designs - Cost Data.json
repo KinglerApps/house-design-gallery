@@ -1,0 +1,3623 @@
+{
+  "date": "2026-10-02",
+  "currency": "AED",
+  "status": "planning allowances, not quotations",
+  "assumptions": {
+    "dryFloorArea": 110,
+    "indoorBalustradeMetres": 12,
+    "wallHandrailMetres": 6,
+    "doorLeavesExcludingFrontAndSlider": 10,
+    "optionalBalconyGuardMetres": 6,
+    "contingency": 0.15,
+    "vatAllowance": 0.05,
+    "largerDesk": "approximately 180 x 80 cm; site fit to confirm"
+  },
+  "models": [
+    {
+      "id": "06",
+      "name": "Nordic Oak and Bronze",
+      "groups": [
+        {
+          "id": "core",
+          "title": "Whole-house shared work",
+          "items": [
+            {
+              "id": "setup",
+              "label": "Protection, mobilisation and final clean",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "One occupied townhouse; temporary protection and contractor preliminaries",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "strip",
+              "label": "Remove existing dry-area floors",
+              "lo": 3850,
+              "hi": 6600,
+              "basis": "110 m² × AED 35–60; wet-room strip-out elsewhere",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "floor",
+              "label": "Herringbone PVC/LVT: supply, cutting waste and laying",
+              "lo": 13200,
+              "hi": 26400,
+              "basis": "110 m² × AED 120–240; project allowance including pattern laying, excluding preparation",
+              "source": "LVT",
+              "zone": ""
+            },
+            {
+              "id": "edges",
+              "label": "Skirting and floor transitions",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Separate trims allowance; levelling is separately itemised",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "paint",
+              "label": "Ordinary internal paint and making good",
+              "lo": 10000,
+              "hi": 18000,
+              "basis": "Dry rooms and ceilings; feature finishes priced by room",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "ac",
+              "label": "AC inspection, cleaning and minor servicing",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing system retained; no replacement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "design",
+              "label": "Interior design and coordinated working drawings",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "Paid professional documentation allowance; excludes extension/pool engineering",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "approval",
+              "label": "Interior approvals, coordination and fee allowance",
+              "lo": 5000,
+              "hi": 11000,
+              "basis": "Provisional combined allowance; not an official fee schedule",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "outsidepaint",
+              "label": "External house walls: repairs and repainting",
+              "lo": 9000,
+              "hi": 18000,
+              "basis": "Provisional front/rear facade, porch and carport surfaces; no scaffold-intensive rebuild or garden feature-wall duplication.",
+              "source": "A"
+            },
+            {
+              "id": "prep_lvt",
+              "label": "LVT subfloor levelling and moisture checks",
+              "lo": 3300,
+              "hi": 6600,
+              "basis": "110 m² × AED 30–60; provisional preparation allowance, distinct from removal and new flooring",
+              "source": "A-new"
+            }
+          ],
+          "image": "",
+          "note": ""
+        },
+        {
+          "id": "r01",
+          "title": "01 · Carport",
+          "items": [
+            {
+              "id": "clean",
+              "label": "Pressure clean and reseal existing paving",
+              "lo": 500,
+              "hi": 900,
+              "basis": "Two-car bay; lump sum pending measured area",
+              "source": "A"
+            },
+            {
+              "id": "repairs",
+              "label": "Local paving / drainage repairs",
+              "lo": 1000,
+              "hi": 2500,
+              "basis": "Existing layout and structure retained",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Replace carport light fittings",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Two existing ceiling points",
+              "source": "A"
+            }
+          ],
+          "note": "Retain two parking spaces and existing roof; wall/ceiling paint in shared work."
+        },
+        {
+          "id": "r02",
+          "title": "02 · Entry court & entrance",
+          "items": [
+            {
+              "id": "path",
+              "label": "Path and step repairs / finish refresh",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Provisional small entry path; survey quantity needed",
+              "source": "A"
+            },
+            {
+              "id": "plant",
+              "label": "Compact planters and planting",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Keep meter cupboards and entry route accessible",
+              "source": "A"
+            },
+            {
+              "id": "light",
+              "label": "Porch / path lighting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Existing power points, small local alterations",
+              "source": "A"
+            },
+            {
+              "id": "lock",
+              "label": "Entrance smart lock supply and fitting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "One lock; door retained",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Retain entrance door; add smart lock."
+        },
+        {
+          "id": "r03",
+          "title": "03 · Foyer & ground hallway",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Shallow shoe / key storage and mirror",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Existing foyer 2.08 × 1.28 m; shallow unit, final door clearances to be checked",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Hall and foyer lighting",
+              "lo": 1000,
+              "hi": 1800,
+              "basis": "Local fitting replacement; no full suspended ceiling",
+              "source": "A"
+            }
+          ],
+          "note": "Continuous floor and ordinary paint already in shared work."
+        },
+        {
+          "id": "r04",
+          "title": "04 · Powder room",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out and preparation",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Small under-stair bathroom",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wet protection and wall / floor finishes",
+              "lo": 4000,
+              "hi": 6500,
+              "basis": "Existing slope retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Walnut vanity and mirror storage",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Compact unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "fixtures",
+              "label": "WC, basin and tap",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No integrated bidet WC in this room",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, lighting and ventilation work",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing fixture positions",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r05",
+          "title": "05 · Former laundry cupboard",
+          "items": [
+            {
+              "id": "oldlaundry",
+              "label": "Convert old laundry cupboard to storage",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Reuse existing doors if suitable",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Convert 0.96 × 0.94 m cupboard to coat / cleaning storage after relocating laundry."
+        },
+        {
+          "id": "r06",
+          "title": "06 · Maid room → household storage",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Closed cabinets and shallow shelving",
+              "lo": 7000,
+              "hi": 13000,
+              "basis": "Approx. 4–5 linear metres; final survey needed",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "worktop",
+              "label": "Folding worktop and organisation fittings",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Baskets, pull-outs and folding top",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r07",
+          "title": "07 · Maid bathroom → laundry & aquarium utility",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Remove obsolete bathroom fixtures",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Retain useful connections",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wet",
+              "label": "Wet floor / wall repairs and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Former maid bathroom approx. 3.2 m²",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "machines",
+              "label": "Washer + dryer stack with kit",
+              "lo": 4500,
+              "hi": 8000,
+              "basis": "New appliances; product allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Moisture-resistant storage and worktop",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Compact rear arrangement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Deep sink, tap and aquarium connections",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing RO/filter system reused where serviceable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Drainage, electrical, ventilation and light",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local alterations",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r08",
+          "title": "08 · Kitchen",
+          "items": [
+            {
+              "id": "demo",
+              "label": "Selective removal and preparation",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Remove current kitchen; existing wall and service layout retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Replacement cabinets, fronts and drawer fittings",
+              "lo": 23000,
+              "hi": 42000,
+              "basis": "Small U-shaped kitchen; locally made quality laminate / veneer, not imported bespoke",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "counter",
+              "label": "Countertops and splashback",
+              "lo": 7000,
+              "hi": 12000,
+              "basis": "Compact kitchen; quartz / porcelain allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Sink and tap",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "One sink and mixer",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "mep",
+              "label": "Local plumbing, electrical and task lighting",
+              "lo": 3500,
+              "hi": 6000,
+              "basis": "Appliance locations retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "prep",
+              "label": "Pull-out prep board and storage fittings",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "No fixed island",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Default: replacement cabinetry in the current U-shape. Black kitchen appliances retained; no fixed island in the original footprint."
+        },
+        {
+          "id": "r09",
+          "title": "09 · Living & dining",
+          "items": [
+            {
+              "id": "tvwall",
+              "label": "TV joinery + feature finish",
+              "lo": 8000,
+              "hi": 15000,
+              "basis": "Approx. 3 m oak-veneer cabinet and limited slats",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tank",
+              "label": "Aquarium base cabinet / service provision",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Existing tank retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sofa",
+              "label": "Sofa",
+              "lo": 6000,
+              "hi": 11000,
+              "basis": "One quality ready-made sofa",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Dining table + six chairs",
+              "lo": 4000,
+              "hi": 8000,
+              "basis": "Compact oak-look / oak set",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tv",
+              "label": "75-inch TV, bracket and cable installation",
+              "lo": 4000,
+              "hi": 8500,
+              "basis": "Same TV allowance as other styles",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Dining / feature lighting",
+              "lo": 1800,
+              "hi": 4000,
+              "basis": "Paper-style pendant plus local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing openings",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Coffee table, rug and accessories",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Simple coordinated set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Aquarium retained, larger TV, concealed wiring and dining for six."
+        },
+        {
+          "id": "r10",
+          "title": "10 · Garden & ground terrace",
+          "items": [
+            {
+              "id": "prep",
+              "label": "Site clearance, base preparation and drainage",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Main garden; pool / sunken excavation priced separately",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "paving",
+              "label": "Outdoor porcelain paving and edging",
+              "lo": 4840,
+              "hi": 8360,
+              "basis": "22 m² × AED 220–380; includes pattern-cut laying where shown. Quantity assumed.",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Cantilever dining umbrella and base",
+              "lo": 2500,
+              "hi": 6000,
+              "basis": "Matches dining umbrella shown; compact terrace shade remains in terrace allowance",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Outdoor dining table + six chairs",
+              "lo": 4500,
+              "hi": 8500,
+              "basis": "Locally available mid-range furniture allowance; not exact products",
+              "source": "S4",
+              "zone": ""
+            },
+            {
+              "id": "lounge",
+              "label": "Main garden lounge / bench",
+              "lo": 5500,
+              "hi": 10500,
+              "basis": "Seating, cushions and side table",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "water",
+              "label": "Bowl / wall water feature",
+              "lo": 3000,
+              "hi": 6500,
+              "basis": "Includes pump and local connection where shown",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "plant",
+              "label": "Planting, pots and drip irrigation",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lawn",
+              "label": "Lawn rework / replacement allowance",
+              "lo": 1495,
+              "hi": 2776,
+              "basis": "21.35 m² × AED 70–130; artificial turf allowance",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Garden lighting and local electrics",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 6–8 light points and wiring",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "terrace",
+              "label": "Recessed terrace: floor, steps, seating and shade",
+              "lo": 9500,
+              "hi": 16500,
+              "basis": "6.24 m² assumed; includes the right-hand view of this board",
+              "source": "A",
+              "zone": "terrace"
+            },
+            {
+              "id": "sunken",
+              "label": "Sunken lounge excavation / build / seating",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "pool",
+              "label": "Plunge pool shell, tiling, filtration and basic MEP",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "chiller",
+              "label": "Pool temperature-control system",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "cover",
+              "label": "Pool cover / safety provision allowance",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "outfees",
+              "label": "Outdoor design / engineering / approval allowance",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Separate outdoor scope; not an official published fee schedule",
+              "source": "S3",
+              "zone": ""
+            }
+          ],
+          "note": "Main garden 51.35 m² measured; recessed terrace 6.24 m² assumed."
+        },
+        {
+          "id": "r11",
+          "title": "11 · Staircase & photography gallery",
+          "items": [
+            {
+              "id": "stone",
+              "label": "Clean / refinish existing stone",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No new treads or balustrade",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "photos",
+              "label": "Print and frame photography",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Approx. six pieces, including one large print",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Gallery and stair lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Local fittings and wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "new_rails",
+              "label": "Replace indoor stair and upstairs landing balustrades",
+              "lo": 10800,
+              "hi": 19200,
+              "basis": "ASSUMED 12 linear metres × AED 900–1600; removal, fabrication, fixing and new top handrail included. Site measurement required.",
+              "source": "A-new"
+            },
+            {
+              "id": "wall_rail",
+              "label": "Replace wall-mounted stair handrail",
+              "lo": 1500,
+              "hi": 2700,
+              "basis": "ASSUMED 6 linear metres × AED 250–450; separate from open-edge balustrade.",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r12",
+          "title": "12 · Upstairs hall & master vestibule",
+          "items": [
+            {
+              "id": "linen",
+              "label": "Refurbish existing linen cupboards",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Retain existing carcasses; door / shelf repairs",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Landing and vestibule lighting",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "detail",
+              "label": "Hall mirror and local finishing details",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Door handles removed from this row and included once in whole-house door package",
+              "source": "A-new"
+            }
+          ],
+          "note": "Floors and ordinary paint included once in shared work."
+        },
+        {
+          "id": "r13",
+          "title": "13 · Master bedroom",
+          "items": [
+            {
+              "id": "head",
+              "label": "Oak / upholstered headboard",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "One bed wall",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bed",
+              "label": "Bed base and mattress",
+              "lo": 4000,
+              "hi": 8000,
+              "basis": "Allowance for new bed; omit if reusing",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bedside",
+              "label": "Two bedside units",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Compact ready-made or simple local joinery",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing terrace opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Bedside and ceiling lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Rug, bedding and framed print",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Artwork production allowance",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/07 Master Bedroom - Calm Oak.png",
+          "note": ""
+        },
+        {
+          "id": "r14",
+          "title": "14 · Master terrace",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Floor, drain and sealant touch-ups",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Approx. 2.80 × 1.30 m assumed; no full slab repair",
+              "source": "A"
+            },
+            {
+              "id": "seat",
+              "label": "Compact seating and small table",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Small ready-made set",
+              "source": "A"
+            },
+            {
+              "id": "shade",
+              "label": "Compact shade provision",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Attachment / permissions to be checked",
+              "source": "A"
+            },
+            {
+              "id": "green",
+              "label": "Planter and lighting",
+              "lo": 500,
+              "hi": 1200,
+              "basis": "Limited items, keep drainage clear",
+              "source": "A"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "id": "r15",
+          "title": "15 · Master walk-in closet",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "L-shaped wardrobe re-fit",
+              "lo": 7500,
+              "hi": 14000,
+              "basis": "Approx. 4 linear metres; oak veneer / quality laminate",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Integrated lighting and mirror",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local electrical work",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r16",
+          "title": "16 · Master bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out, protection and disposal",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Master bathroom only",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "waterproof",
+              "label": "Wet-area preparation and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Approx. 5.3 m² floor plus wet walls",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wall + floor tiling",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "Approx. 25–30 m² tiled surfaces; allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Vanity and illuminated mirrored storage",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "One compact custom unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wc",
+              "label": "Integrated bidet WC with connections",
+              "lo": 5000,
+              "hi": 12000,
+              "basis": "Product/brand not selected; provisional supply + fit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, electrical and ventilation alterations",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Retain service zones; no whole-house replumb",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "door",
+              "label": "Sliding door and local making good",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Surface slider allowance; pocket wall feasibility unresolved",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wetfixture",
+              "label": "Shower glass, drain and shower fittings",
+              "lo": 5500,
+              "hi": 9500,
+              "basis": "Bath removed; rear wet zone rebuilt",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Integrated bidet WC and sliding door allowance; survey wall and plumbing constraints."
+        },
+        {
+          "id": "r17",
+          "title": "17 · Family bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip out existing finishes and fittings",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Existing compact Jack-and-Jill bathroom",
+              "source": "A"
+            },
+            {
+              "id": "waterproof",
+              "label": "Waterproofing and substrate preparation",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Wet zone, test and make good",
+              "source": "A"
+            },
+            {
+              "id": "tile",
+              "label": "Wall and floor tiling",
+              "lo": 5500,
+              "hi": 9000,
+              "basis": "Porcelain; measured take-off not available",
+              "source": "A"
+            },
+            {
+              "id": "vanity",
+              "label": "Double vanity, basins, taps and mirror",
+              "lo": 6500,
+              "hi": 11000,
+              "basis": "Keep double-basin arrangement",
+              "source": "A"
+            },
+            {
+              "id": "wc",
+              "label": "WC replacement",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Standard WC, existing position",
+              "source": "A"
+            },
+            {
+              "id": "shower",
+              "label": "Shower fittings and screen",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Existing shower footprint",
+              "source": "A"
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, ventilation and lighting",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local work; keep door routes clear",
+              "source": "A"
+            }
+          ],
+          "note": "Default: full renovation retaining layout and both access routes."
+        },
+        {
+          "id": "r18",
+          "title": "18 · Bedroom 2 / guest room",
+          "items": [
+            {
+              "id": "bed",
+              "label": "Compact sofa bed / guest bed",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Flexible guest use, replacing existing sofa if desired",
+              "source": "A"
+            },
+            {
+              "id": "storage",
+              "label": "Wardrobe refresh and shallow storage",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Retain viable existing storage; not a new full-wall wardrobe",
+              "source": "A"
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 1800,
+              "hi": 3200,
+              "basis": "Existing full-height opening",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Light fitting and bedside/task light",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "soft",
+              "label": "Bedding, side table and framed photograph",
+              "lo": 1200,
+              "hi": 2400,
+              "basis": "One coordinated guest set",
+              "source": "A"
+            }
+          ],
+          "note": "Keep current window and room footprint. Dry flooring and paint are shared costs."
+        },
+        {
+          "id": "r19",
+          "title": "19 · Office",
+          "items": [
+            {
+              "id": "reuse",
+              "label": "Reuse office chair, screens, shelving and frames",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Existing desk replaced; new desk cable management included in desk accessories below",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "curtain",
+              "label": "Curtain refresh",
+              "lo": 1500,
+              "hi": 2800,
+              "basis": "Existing opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "feature",
+              "label": "Accent wall and accessories",
+              "lo": 800,
+              "hi": 1600,
+              "basis": "Ordinary paint/floor already in shared works",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "large_desk",
+              "label": "Larger desk, approximately 180 × 80 cm",
+              "lo": 2200,
+              "hi": 4500,
+              "basis": "One quality desk, with sit-stand base allowance; finish selected to suit style. Project allowance, not quoted pictured product.",
+              "source": "DESK"
+            },
+            {
+              "id": "desk_accessories",
+              "label": "Monitor arms, cable tray and installation",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Two monitor supports, concealed tray and setup; no new monitors",
+              "source": "A-new"
+            },
+            {
+              "id": "desk_storage",
+              "label": "One slim drawer pedestal",
+              "lo": 600,
+              "hi": 1400,
+              "basis": "One separate storage unit; preserve knee space",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "r20",
+          "title": "20 · Office balcony",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Balcony floor / local repairs",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "2.79 m²; no structural slab work",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "chair",
+              "label": "One chair and coffee shelf",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Compact ready-made furniture",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Small retractable shade and fitting",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Fixing details not verified",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "plantlight",
+              "label": "Planter and light",
+              "lo": 700,
+              "hi": 1500,
+              "basis": "One compact set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "doors_new",
+          "title": "Whole-house internal doors and front-door finish",
+          "items": [
+            {
+              "id": "door_refinish",
+              "label": "Refinish ten internal doors and frames",
+              "lo": 6500,
+              "hi": 11000,
+              "basis": "10 assumed leaves × AED 650–1,100; excludes front door and master-bath sliding door",
+              "source": "A-new"
+            },
+            {
+              "id": "new_leaves",
+              "label": "Selected walnut-veneer replacement door leaves",
+              "lo": 0,
+              "hi": 0,
+              "basis": "No replacement leaves in this base option",
+              "source": "A-new"
+            },
+            {
+              "id": "hardware",
+              "label": "Coordinated internal door levers, hinges and latches",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "10 assumed sets × AED 180–350. Bathroom sliding-door hardware stays in bathroom package.",
+              "source": "A-new"
+            },
+            {
+              "id": "front_finish",
+              "label": "Front timber door: compatible repair/refinish",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Finish refresh only. Smart lock remains in original foyer scope; full door replacement excluded.",
+              "source": "A-new"
+            }
+          ]
+        }
+      ],
+      "base": [
+        367085,
+        685336
+      ],
+      "cont": [
+        55062.75,
+        102800.4
+      ],
+      "vat": [
+        21107.387499999997,
+        39406.82
+      ],
+      "total": [
+        443255.13749999995,
+        827543.22
+      ],
+      "optionalBalcony": {
+        "id": "balcony_rails",
+        "label": "Optional coordinated balcony guard replacement",
+        "lo": 6000,
+        "hi": 10200,
+        "basis": "ASSUMED 6 linear metres total for two balconies × AED 1000–1700; outdoor materials and fixings, subject to survey. Excluded from base.",
+        "source": "A-new"
+      },
+      "totalWithBalconies": [
+        450500.13749999995,
+        839859.72
+      ]
+    },
+    {
+      "id": "07",
+      "name": "Soft Classic Greige",
+      "groups": [
+        {
+          "id": "core",
+          "title": "Whole-house shared work",
+          "items": [
+            {
+              "id": "setup",
+              "label": "Protection, mobilisation and final clean",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "One occupied townhouse; temporary protection and contractor preliminaries",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "strip",
+              "label": "Remove existing dry-area floors",
+              "lo": 3850,
+              "hi": 6600,
+              "basis": "110 m² × AED 35–60; wet-room strip-out elsewhere",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "floor",
+              "label": "Herringbone PVC/LVT: supply, cutting waste and laying",
+              "lo": 13200,
+              "hi": 26400,
+              "basis": "110 m² × AED 120–240; project allowance including pattern laying, excluding preparation",
+              "source": "LVT",
+              "zone": ""
+            },
+            {
+              "id": "edges",
+              "label": "Skirting and floor transitions",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Separate trims allowance; levelling is separately itemised",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "paint",
+              "label": "Ordinary internal paint and making good",
+              "lo": 10000,
+              "hi": 18000,
+              "basis": "Dry rooms and ceilings; feature finishes priced by room",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "ac",
+              "label": "AC inspection, cleaning and minor servicing",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing system retained; no replacement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "design",
+              "label": "Interior design and coordinated working drawings",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "Paid professional documentation allowance; excludes extension/pool engineering",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "approval",
+              "label": "Interior approvals, coordination and fee allowance",
+              "lo": 5000,
+              "hi": 11000,
+              "basis": "Provisional combined allowance; not an official fee schedule",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "outsidepaint",
+              "label": "External house walls: repairs and repainting",
+              "lo": 9000,
+              "hi": 18000,
+              "basis": "Provisional front/rear facade, porch and carport surfaces; no scaffold-intensive rebuild or garden feature-wall duplication.",
+              "source": "A"
+            },
+            {
+              "id": "prep_lvt",
+              "label": "LVT subfloor levelling and moisture checks",
+              "lo": 3300,
+              "hi": 6600,
+              "basis": "110 m² × AED 30–60; provisional preparation allowance, distinct from removal and new flooring",
+              "source": "A-new"
+            }
+          ],
+          "image": "",
+          "note": ""
+        },
+        {
+          "id": "r01",
+          "title": "01 · Carport",
+          "items": [
+            {
+              "id": "clean",
+              "label": "Pressure clean and reseal existing paving",
+              "lo": 500,
+              "hi": 900,
+              "basis": "Two-car bay; lump sum pending measured area",
+              "source": "A"
+            },
+            {
+              "id": "repairs",
+              "label": "Local paving / drainage repairs",
+              "lo": 1000,
+              "hi": 2500,
+              "basis": "Existing layout and structure retained",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Replace carport light fittings",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Two existing ceiling points",
+              "source": "A"
+            }
+          ],
+          "note": "Retain two parking spaces and existing roof; wall/ceiling paint in shared work."
+        },
+        {
+          "id": "r02",
+          "title": "02 · Entry court & entrance",
+          "items": [
+            {
+              "id": "path",
+              "label": "Path and step repairs / finish refresh",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Provisional small entry path; survey quantity needed",
+              "source": "A"
+            },
+            {
+              "id": "plant",
+              "label": "Compact planters and planting",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Keep meter cupboards and entry route accessible",
+              "source": "A"
+            },
+            {
+              "id": "light",
+              "label": "Porch / path lighting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Existing power points, small local alterations",
+              "source": "A"
+            },
+            {
+              "id": "lock",
+              "label": "Entrance smart lock supply and fitting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "One lock; door retained",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Retain entrance door; add smart lock."
+        },
+        {
+          "id": "r03",
+          "title": "03 · Foyer & ground hallway",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Shallow shoe / key storage and mirror",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Existing foyer 2.08 × 1.28 m; shallow unit, final door clearances to be checked",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Hall and foyer lighting",
+              "lo": 1000,
+              "hi": 1800,
+              "basis": "Local fitting replacement; no full suspended ceiling",
+              "source": "A"
+            }
+          ],
+          "note": "Continuous floor and ordinary paint already in shared work."
+        },
+        {
+          "id": "r04",
+          "title": "04 · Powder room",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out and preparation",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Small under-stair bathroom",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wet protection and wall / floor finishes",
+              "lo": 4000,
+              "hi": 6500,
+              "basis": "Existing slope retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Walnut vanity and mirror storage",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Compact unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "fixtures",
+              "label": "WC, basin and tap",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No integrated bidet WC in this room",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, lighting and ventilation work",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing fixture positions",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r05",
+          "title": "05 · Former laundry cupboard",
+          "items": [
+            {
+              "id": "oldlaundry",
+              "label": "Convert old laundry cupboard to storage",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Reuse existing doors if suitable",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Convert 0.96 × 0.94 m cupboard to coat / cleaning storage after relocating laundry."
+        },
+        {
+          "id": "r06",
+          "title": "06 · Maid room → household storage",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Closed cabinets and shallow shelving",
+              "lo": 7000,
+              "hi": 13000,
+              "basis": "Approx. 4–5 linear metres; final survey needed",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "worktop",
+              "label": "Folding worktop and organisation fittings",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Baskets, pull-outs and folding top",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r07",
+          "title": "07 · Maid bathroom → laundry & aquarium utility",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Remove obsolete bathroom fixtures",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Retain useful connections",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wet",
+              "label": "Wet floor / wall repairs and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Former maid bathroom approx. 3.2 m²",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "machines",
+              "label": "Washer + dryer stack with kit",
+              "lo": 4500,
+              "hi": 8000,
+              "basis": "New appliances; product allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Moisture-resistant storage and worktop",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Compact rear arrangement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Deep sink, tap and aquarium connections",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing RO/filter system reused where serviceable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Drainage, electrical, ventilation and light",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local alterations",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r08",
+          "title": "08 · Kitchen",
+          "items": [
+            {
+              "id": "demo",
+              "label": "Selective removal and preparation",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Remove current kitchen; existing wall and service layout retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Replacement cabinets, fronts and drawer fittings",
+              "lo": 23000,
+              "hi": 42000,
+              "basis": "Small U-shaped kitchen; locally made quality laminate / veneer, not imported bespoke",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "counter",
+              "label": "Countertops and splashback",
+              "lo": 7000,
+              "hi": 12000,
+              "basis": "Compact kitchen; quartz / porcelain allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Sink and tap",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "One sink and mixer",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "mep",
+              "label": "Local plumbing, electrical and task lighting",
+              "lo": 3500,
+              "hi": 6000,
+              "basis": "Appliance locations retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "prep",
+              "label": "Pull-out prep board and storage fittings",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "No fixed island",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Default: replacement cabinetry in the current U-shape. Black kitchen appliances retained; no fixed island in the original footprint."
+        },
+        {
+          "id": "r09",
+          "title": "09 · Living & dining",
+          "items": [
+            {
+              "id": "tvwall",
+              "label": "TV joinery + feature finish",
+              "lo": 10000,
+              "hi": 18000,
+              "basis": "Whitewashed-veneer cabinet plus applied plaster arch",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tank",
+              "label": "Aquarium base cabinet / service provision",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Existing tank retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sofa",
+              "label": "Sofa",
+              "lo": 6500,
+              "hi": 12000,
+              "basis": "One linen-look sofa",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Dining table + six chairs",
+              "lo": 4500,
+              "hi": 8500,
+              "basis": "Compact timber / woven-back set",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tv",
+              "label": "75-inch TV, bracket and cable installation",
+              "lo": 4000,
+              "hi": 8500,
+              "basis": "Same TV allowance as other styles",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Dining / feature lighting",
+              "lo": 2200,
+              "hi": 4500,
+              "basis": "Woven pendant and local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 2800,
+              "hi": 5000,
+              "basis": "Existing openings",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Coffee table, rug and accessories",
+              "lo": 2800,
+              "hi": 5500,
+              "basis": "Simple coordinated set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Aquarium retained, larger TV, concealed wiring and dining for six."
+        },
+        {
+          "id": "r10",
+          "title": "10 · Garden & ground terrace",
+          "items": [
+            {
+              "id": "prep",
+              "label": "Site clearance, base preparation and drainage",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Main garden; pool / sunken excavation priced separately",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "paving",
+              "label": "Outdoor porcelain paving and edging",
+              "lo": 4840,
+              "hi": 8360,
+              "basis": "22 m² × AED 220–380; includes pattern-cut laying where shown. Quantity assumed.",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Simple main dining pergola",
+              "lo": 8000,
+              "hi": 16000,
+              "basis": "Provisional timber/metal pergola, posts and foundations; replaces shade-sail allowance",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Outdoor dining table + six chairs",
+              "lo": 4500,
+              "hi": 8500,
+              "basis": "Locally available mid-range furniture allowance; not exact products",
+              "source": "S4",
+              "zone": ""
+            },
+            {
+              "id": "lounge",
+              "label": "Main garden lounge / bench",
+              "lo": 5500,
+              "hi": 10500,
+              "basis": "Seating, cushions and side table",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "water",
+              "label": "No water feature in this visual option",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Omitted from Soft Classic render",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "plant",
+              "label": "Planting, pots and drip irrigation",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lawn",
+              "label": "Lawn rework / replacement allowance",
+              "lo": 1495,
+              "hi": 2776,
+              "basis": "21.35 m² × AED 70–130; artificial turf allowance",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Garden lighting and local electrics",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 6–8 light points and wiring",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "terrace",
+              "label": "Recessed terrace: paving, steps, bench and pergola",
+              "lo": 12500,
+              "hi": 22000,
+              "basis": "6.24 m² assumed; separate compact terrace shade",
+              "source": "A-new",
+              "zone": "terrace"
+            },
+            {
+              "id": "sunken",
+              "label": "Sunken lounge excavation / build / seating",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "pool",
+              "label": "Plunge pool shell, tiling, filtration and basic MEP",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "chiller",
+              "label": "Pool temperature-control system",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "cover",
+              "label": "Pool cover / safety provision allowance",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "outfees",
+              "label": "Outdoor design / engineering / approval allowance",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Separate outdoor scope; not an official published fee schedule",
+              "source": "S3",
+              "zone": ""
+            }
+          ],
+          "note": "Main garden 51.35 m² measured; recessed terrace 6.24 m² assumed."
+        },
+        {
+          "id": "r11",
+          "title": "11 · Staircase & photography gallery",
+          "items": [
+            {
+              "id": "stone",
+              "label": "Clean / refinish existing stone",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No new treads or balustrade",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "photos",
+              "label": "Print and frame photography",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Approx. six pieces, including one large print",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Gallery and stair lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Local fittings and wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "new_rails",
+              "label": "Replace indoor stair and upstairs landing balustrades",
+              "lo": 12000,
+              "hi": 21600,
+              "basis": "ASSUMED 12 linear metres × AED 1000–1800; removal, fabrication, fixing and new top handrail included. Site measurement required.",
+              "source": "A-new"
+            },
+            {
+              "id": "wall_rail",
+              "label": "Replace wall-mounted stair handrail",
+              "lo": 1500,
+              "hi": 2700,
+              "basis": "ASSUMED 6 linear metres × AED 250–450; separate from open-edge balustrade.",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r12",
+          "title": "12 · Upstairs hall & master vestibule",
+          "items": [
+            {
+              "id": "linen",
+              "label": "Refurbish existing linen cupboards",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Retain existing carcasses; door / shelf repairs",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Landing and vestibule lighting",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "detail",
+              "label": "Hall mirror and local finishing details",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Door handles removed from this row and included once in whole-house door package",
+              "source": "A-new"
+            }
+          ],
+          "note": "Floors and ordinary paint included once in shared work."
+        },
+        {
+          "id": "r13",
+          "title": "13 · Master bedroom",
+          "items": [
+            {
+              "id": "head",
+              "label": "Oak / upholstered headboard",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "One bed wall",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bed",
+              "label": "Bed base and mattress",
+              "lo": 4000,
+              "hi": 8000,
+              "basis": "Allowance for new bed; omit if reusing",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bedside",
+              "label": "Two bedside units",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Compact ready-made or simple local joinery",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing terrace opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Bedside and ceiling lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Rug, bedding and framed print",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Artwork production allowance",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/07 Master Bedroom - Calm Oak.png",
+          "note": ""
+        },
+        {
+          "id": "r14",
+          "title": "14 · Master terrace",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Floor, drain and sealant touch-ups",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Approx. 2.80 × 1.30 m assumed; no full slab repair",
+              "source": "A"
+            },
+            {
+              "id": "seat",
+              "label": "Compact seating and small table",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Small ready-made set",
+              "source": "A"
+            },
+            {
+              "id": "shade",
+              "label": "Compact shade provision",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Attachment / permissions to be checked",
+              "source": "A"
+            },
+            {
+              "id": "green",
+              "label": "Planter and lighting",
+              "lo": 500,
+              "hi": 1200,
+              "basis": "Limited items, keep drainage clear",
+              "source": "A"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "id": "r15",
+          "title": "15 · Master walk-in closet",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "L-shaped wardrobe re-fit",
+              "lo": 7500,
+              "hi": 14000,
+              "basis": "Approx. 4 linear metres; oak veneer / quality laminate",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Integrated lighting and mirror",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local electrical work",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r16",
+          "title": "16 · Master bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out, protection and disposal",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Master bathroom only",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "waterproof",
+              "label": "Wet-area preparation and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Approx. 5.3 m² floor plus wet walls",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wall + floor tiling",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "Approx. 25–30 m² tiled surfaces; allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Vanity and illuminated mirrored storage",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "One compact custom unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wc",
+              "label": "Integrated bidet WC with connections",
+              "lo": 5000,
+              "hi": 12000,
+              "basis": "Product/brand not selected; provisional supply + fit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, electrical and ventilation alterations",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Retain service zones; no whole-house replumb",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "door",
+              "label": "Sliding door and local making good",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Surface slider allowance; pocket wall feasibility unresolved",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wetfixture",
+              "label": "Shower glass, drain and shower fittings",
+              "lo": 5500,
+              "hi": 9500,
+              "basis": "Bath removed; rear wet zone rebuilt",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Integrated bidet WC and sliding door allowance; survey wall and plumbing constraints."
+        },
+        {
+          "id": "r17",
+          "title": "17 · Family bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip out existing finishes and fittings",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Existing compact Jack-and-Jill bathroom",
+              "source": "A"
+            },
+            {
+              "id": "waterproof",
+              "label": "Waterproofing and substrate preparation",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Wet zone, test and make good",
+              "source": "A"
+            },
+            {
+              "id": "tile",
+              "label": "Wall and floor tiling",
+              "lo": 5500,
+              "hi": 9000,
+              "basis": "Porcelain; measured take-off not available",
+              "source": "A"
+            },
+            {
+              "id": "vanity",
+              "label": "Double vanity, basins, taps and mirror",
+              "lo": 6500,
+              "hi": 11000,
+              "basis": "Keep double-basin arrangement",
+              "source": "A"
+            },
+            {
+              "id": "wc",
+              "label": "WC replacement",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Standard WC, existing position",
+              "source": "A"
+            },
+            {
+              "id": "shower",
+              "label": "Shower fittings and screen",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Existing shower footprint",
+              "source": "A"
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, ventilation and lighting",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local work; keep door routes clear",
+              "source": "A"
+            }
+          ],
+          "note": "Default: full renovation retaining layout and both access routes."
+        },
+        {
+          "id": "r18",
+          "title": "18 · Bedroom 2 / guest room",
+          "items": [
+            {
+              "id": "bed",
+              "label": "Compact sofa bed / guest bed",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Flexible guest use, replacing existing sofa if desired",
+              "source": "A"
+            },
+            {
+              "id": "storage",
+              "label": "Wardrobe refresh and shallow storage",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Retain viable existing storage; not a new full-wall wardrobe",
+              "source": "A"
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 1800,
+              "hi": 3200,
+              "basis": "Existing full-height opening",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Light fitting and bedside/task light",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "soft",
+              "label": "Bedding, side table and framed photograph",
+              "lo": 1200,
+              "hi": 2400,
+              "basis": "One coordinated guest set",
+              "source": "A"
+            }
+          ],
+          "note": "Keep current window and room footprint. Dry flooring and paint are shared costs."
+        },
+        {
+          "id": "r19",
+          "title": "19 · Office",
+          "items": [
+            {
+              "id": "reuse",
+              "label": "Reuse office chair, screens, shelving and frames",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Existing desk replaced; new desk cable management included in desk accessories below",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "curtain",
+              "label": "Curtain refresh",
+              "lo": 1500,
+              "hi": 2800,
+              "basis": "Existing opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "feature",
+              "label": "Accent wall and accessories",
+              "lo": 800,
+              "hi": 1600,
+              "basis": "Ordinary paint/floor already in shared works",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "large_desk",
+              "label": "Larger desk, approximately 180 × 80 cm",
+              "lo": 2200,
+              "hi": 4500,
+              "basis": "One quality desk, with sit-stand base allowance; finish selected to suit style. Project allowance, not quoted pictured product.",
+              "source": "DESK"
+            },
+            {
+              "id": "desk_accessories",
+              "label": "Monitor arms, cable tray and installation",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Two monitor supports, concealed tray and setup; no new monitors",
+              "source": "A-new"
+            },
+            {
+              "id": "desk_storage",
+              "label": "One slim drawer pedestal",
+              "lo": 600,
+              "hi": 1400,
+              "basis": "One separate storage unit; preserve knee space",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "r20",
+          "title": "20 · Office balcony",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Balcony floor / local repairs",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "2.79 m²; no structural slab work",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "chair",
+              "label": "One chair and coffee shelf",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Compact ready-made furniture",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Small retractable shade and fitting",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Fixing details not verified",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "plantlight",
+              "label": "Planter and light",
+              "lo": 700,
+              "hi": 1500,
+              "basis": "One compact set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "doors_new",
+          "title": "Whole-house internal doors and front-door finish",
+          "items": [
+            {
+              "id": "door_refinish",
+              "label": "Refinish ten internal doors and frames",
+              "lo": 8500,
+              "hi": 14000,
+              "basis": "10 assumed leaves × AED 850–1,400 with simple moulding; excludes front door and master-bath sliding door",
+              "source": "A-new"
+            },
+            {
+              "id": "new_leaves",
+              "label": "Selected walnut-veneer replacement door leaves",
+              "lo": 0,
+              "hi": 0,
+              "basis": "No replacement leaves in this base option",
+              "source": "A-new"
+            },
+            {
+              "id": "hardware",
+              "label": "Coordinated internal door levers, hinges and latches",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "10 assumed sets × AED 180–350. Bathroom sliding-door hardware stays in bathroom package.",
+              "source": "A-new"
+            },
+            {
+              "id": "front_finish",
+              "label": "Front timber door: compatible repair/refinish",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Finish refresh only. Smart lock remains in original foyer scope; full door replacement excluded.",
+              "source": "A-new"
+            }
+          ]
+        }
+      ],
+      "base": [
+        379785,
+        705736
+      ],
+      "cont": [
+        56967.75,
+        105860.4
+      ],
+      "vat": [
+        21837.637499999997,
+        40579.82
+      ],
+      "total": [
+        458590.38749999995,
+        852176.22
+      ],
+      "optionalBalcony": {
+        "id": "balcony_rails",
+        "label": "Optional coordinated balcony guard replacement",
+        "lo": 6600,
+        "hi": 11400,
+        "basis": "ASSUMED 6 linear metres total for two balconies × AED 1100–1900; outdoor materials and fixings, subject to survey. Excluded from base.",
+        "source": "A-new"
+      },
+      "totalWithBalconies": [
+        466559.88749999995,
+        865941.72
+      ]
+    },
+    {
+      "id": "08",
+      "name": "Warm Walnut and Glass",
+      "groups": [
+        {
+          "id": "core",
+          "title": "Whole-house shared work",
+          "items": [
+            {
+              "id": "setup",
+              "label": "Protection, mobilisation and final clean",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "One occupied townhouse; temporary protection and contractor preliminaries",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "strip",
+              "label": "Remove existing dry-area floors",
+              "lo": 3850,
+              "hi": 6600,
+              "basis": "110 m² × AED 35–60; wet-room strip-out elsewhere",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "floor",
+              "label": "Herringbone PVC/LVT: supply, cutting waste and laying",
+              "lo": 13200,
+              "hi": 26400,
+              "basis": "110 m² × AED 120–240; project allowance including pattern laying, excluding preparation",
+              "source": "LVT",
+              "zone": ""
+            },
+            {
+              "id": "edges",
+              "label": "Skirting and floor transitions",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Separate trims allowance; levelling is separately itemised",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "paint",
+              "label": "Ordinary internal paint and making good",
+              "lo": 10000,
+              "hi": 18000,
+              "basis": "Dry rooms and ceilings; feature finishes priced by room",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "ac",
+              "label": "AC inspection, cleaning and minor servicing",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing system retained; no replacement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "design",
+              "label": "Interior design and coordinated working drawings",
+              "lo": 6000,
+              "hi": 10000,
+              "basis": "Paid professional documentation allowance; excludes extension/pool engineering",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "approval",
+              "label": "Interior approvals, coordination and fee allowance",
+              "lo": 5000,
+              "hi": 11000,
+              "basis": "Provisional combined allowance; not an official fee schedule",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "outsidepaint",
+              "label": "External house walls: repairs and repainting",
+              "lo": 9000,
+              "hi": 18000,
+              "basis": "Provisional front/rear facade, porch and carport surfaces; no scaffold-intensive rebuild or garden feature-wall duplication.",
+              "source": "A"
+            },
+            {
+              "id": "prep_lvt",
+              "label": "LVT subfloor levelling and moisture checks",
+              "lo": 3300,
+              "hi": 6600,
+              "basis": "110 m² × AED 30–60; provisional preparation allowance, distinct from removal and new flooring",
+              "source": "A-new"
+            }
+          ],
+          "image": "",
+          "note": ""
+        },
+        {
+          "id": "r01",
+          "title": "01 · Carport",
+          "items": [
+            {
+              "id": "clean",
+              "label": "Pressure clean and reseal existing paving",
+              "lo": 500,
+              "hi": 900,
+              "basis": "Two-car bay; lump sum pending measured area",
+              "source": "A"
+            },
+            {
+              "id": "repairs",
+              "label": "Local paving / drainage repairs",
+              "lo": 1000,
+              "hi": 2500,
+              "basis": "Existing layout and structure retained",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Replace carport light fittings",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Two existing ceiling points",
+              "source": "A"
+            }
+          ],
+          "note": "Retain two parking spaces and existing roof; wall/ceiling paint in shared work."
+        },
+        {
+          "id": "r02",
+          "title": "02 · Entry court & entrance",
+          "items": [
+            {
+              "id": "path",
+              "label": "Path and step repairs / finish refresh",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Provisional small entry path; survey quantity needed",
+              "source": "A"
+            },
+            {
+              "id": "plant",
+              "label": "Compact planters and planting",
+              "lo": 1000,
+              "hi": 2200,
+              "basis": "Keep meter cupboards and entry route accessible",
+              "source": "A"
+            },
+            {
+              "id": "light",
+              "label": "Porch / path lighting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Existing power points, small local alterations",
+              "source": "A"
+            },
+            {
+              "id": "lock",
+              "label": "Entrance smart lock supply and fitting",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "One lock; door retained",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Retain entrance door; add smart lock."
+        },
+        {
+          "id": "r03",
+          "title": "03 · Foyer & ground hallway",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Shallow shoe / key storage and mirror",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Existing foyer 2.08 × 1.28 m; shallow unit, final door clearances to be checked",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Hall and foyer lighting",
+              "lo": 1000,
+              "hi": 1800,
+              "basis": "Local fitting replacement; no full suspended ceiling",
+              "source": "A"
+            }
+          ],
+          "note": "Continuous floor and ordinary paint already in shared work."
+        },
+        {
+          "id": "r04",
+          "title": "04 · Powder room",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out and preparation",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Small under-stair bathroom",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wet protection and wall / floor finishes",
+              "lo": 4000,
+              "hi": 6500,
+              "basis": "Existing slope retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Walnut vanity and mirror storage",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Compact unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "fixtures",
+              "label": "WC, basin and tap",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No integrated bidet WC in this room",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, lighting and ventilation work",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing fixture positions",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r05",
+          "title": "05 · Former laundry cupboard",
+          "items": [
+            {
+              "id": "oldlaundry",
+              "label": "Convert old laundry cupboard to storage",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Reuse existing doors if suitable",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Convert 0.96 × 0.94 m cupboard to coat / cleaning storage after relocating laundry."
+        },
+        {
+          "id": "r06",
+          "title": "06 · Maid room → household storage",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "Closed cabinets and shallow shelving",
+              "lo": 7000,
+              "hi": 13000,
+              "basis": "Approx. 4–5 linear metres; final survey needed",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "worktop",
+              "label": "Folding worktop and organisation fittings",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Baskets, pull-outs and folding top",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r07",
+          "title": "07 · Maid bathroom → laundry & aquarium utility",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Remove obsolete bathroom fixtures",
+              "lo": 1500,
+              "hi": 2500,
+              "basis": "Retain useful connections",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wet",
+              "label": "Wet floor / wall repairs and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Former maid bathroom approx. 3.2 m²",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "machines",
+              "label": "Washer + dryer stack with kit",
+              "lo": 4500,
+              "hi": 8000,
+              "basis": "New appliances; product allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Moisture-resistant storage and worktop",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Compact rear arrangement",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Deep sink, tap and aquarium connections",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Existing RO/filter system reused where serviceable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Drainage, electrical, ventilation and light",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local alterations",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r08",
+          "title": "08 · Kitchen",
+          "items": [
+            {
+              "id": "demo",
+              "label": "Selective removal and preparation",
+              "lo": 2000,
+              "hi": 4000,
+              "basis": "Remove current kitchen; existing wall and service layout retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "cabinet",
+              "label": "Replacement cabinets, fronts and drawer fittings",
+              "lo": 23000,
+              "hi": 42000,
+              "basis": "Small U-shaped kitchen; locally made quality laminate / veneer, not imported bespoke",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "counter",
+              "label": "Countertops and splashback",
+              "lo": 7000,
+              "hi": 12000,
+              "basis": "Compact kitchen; quartz / porcelain allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sink",
+              "label": "Sink and tap",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "One sink and mixer",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "mep",
+              "label": "Local plumbing, electrical and task lighting",
+              "lo": 3500,
+              "hi": 6000,
+              "basis": "Appliance locations retained",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "prep",
+              "label": "Pull-out prep board and storage fittings",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "No fixed island",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Default: replacement cabinetry in the current U-shape. Black kitchen appliances retained; no fixed island in the original footprint."
+        },
+        {
+          "id": "r09",
+          "title": "09 · Living & dining",
+          "items": [
+            {
+              "id": "tvwall",
+              "label": "TV joinery + feature finish",
+              "lo": 10500,
+              "hi": 20000,
+              "basis": "Approx. 3 m walnut-veneer media wall and subtle feature finish",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tank",
+              "label": "Aquarium base cabinet / service provision",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Existing tank retained; specialist support and access allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "sofa",
+              "label": "Sofa",
+              "lo": 7000,
+              "hi": 14000,
+              "basis": "One quality ready-made sofa",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Dining table + six chairs",
+              "lo": 5000,
+              "hi": 10000,
+              "basis": "Approx. 1.8 m table; locally sourced set",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "tv",
+              "label": "75-inch TV, bracket and cable installation",
+              "lo": 4000,
+              "hi": 8500,
+              "basis": "Provisional electronics allowance; no premium OLED commitment",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Dining / feature lighting",
+              "lo": 3000,
+              "hi": 6500,
+              "basis": "Fixture, driver and local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 3000,
+              "hi": 5500,
+              "basis": "Existing openings; no replacement glazing",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Coffee table, rug and accessories",
+              "lo": 3000,
+              "hi": 6500,
+              "basis": "One coordinated set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Aquarium retained, larger TV, concealed wiring and dining for six."
+        },
+        {
+          "id": "r10",
+          "title": "10 · Garden & ground terrace",
+          "items": [
+            {
+              "id": "prep",
+              "label": "Site clearance, base preparation and drainage",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Main garden; pool / sunken excavation priced separately",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "paving",
+              "label": "Outdoor porcelain paving and edging",
+              "lo": 4840,
+              "hi": 8360,
+              "basis": "22 m² × AED 220–380; includes pattern-cut laying where shown. Quantity assumed.",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Main dining shade",
+              "lo": 4000,
+              "hi": 8000,
+              "basis": "Shade sail, posts and foundations",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "dining",
+              "label": "Outdoor dining table + six chairs",
+              "lo": 4500,
+              "hi": 8500,
+              "basis": "Locally available mid-range furniture allowance; not exact products",
+              "source": "S4",
+              "zone": ""
+            },
+            {
+              "id": "lounge",
+              "label": "Main garden lounge / bench",
+              "lo": 5500,
+              "hi": 10500,
+              "basis": "Seating, cushions and side table",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "water",
+              "label": "Bowl / wall water feature",
+              "lo": 3000,
+              "hi": 6500,
+              "basis": "Includes pump and local connection where shown",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "plant",
+              "label": "Planting, pots and drip irrigation",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 8 m² planting / gravel pockets; existing bougainvillea retained",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lawn",
+              "label": "Lawn rework / replacement allowance",
+              "lo": 1495,
+              "hi": 2776,
+              "basis": "21.35 m² × AED 70–130; artificial turf allowance",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Garden lighting and local electrics",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Approx. 6–8 light points and wiring",
+              "source": "S3",
+              "zone": ""
+            },
+            {
+              "id": "terrace",
+              "label": "Recessed terrace: floor, steps, seating and shade",
+              "lo": 9500,
+              "hi": 16500,
+              "basis": "6.24 m² assumed; includes the right-hand view of this board",
+              "source": "A",
+              "zone": "terrace"
+            },
+            {
+              "id": "sunken",
+              "label": "Sunken lounge excavation / build / seating",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "pool",
+              "label": "Plunge pool shell, tiling, filtration and basic MEP",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not in this option",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "chiller",
+              "label": "Pool temperature-control system",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "S5",
+              "zone": ""
+            },
+            {
+              "id": "cover",
+              "label": "Pool cover / safety provision allowance",
+              "lo": 0,
+              "hi": 0,
+              "basis": "Not applicable",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "outfees",
+              "label": "Outdoor design / engineering / approval allowance",
+              "lo": 3000,
+              "hi": 6000,
+              "basis": "Separate outdoor scope; not an official published fee schedule",
+              "source": "S3",
+              "zone": ""
+            }
+          ],
+          "note": "Main garden 51.35 m² measured; recessed terrace 6.24 m² assumed."
+        },
+        {
+          "id": "r11",
+          "title": "11 · Staircase & photography gallery",
+          "items": [
+            {
+              "id": "stone",
+              "label": "Clean / refinish existing stone",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "No new treads or balustrade",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "photos",
+              "label": "Print and frame photography",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Approx. six pieces, including one large print",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Gallery and stair lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Local fittings and wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "new_rails",
+              "label": "Replace indoor stair and upstairs landing balustrades",
+              "lo": 16800,
+              "hi": 28800,
+              "basis": "ASSUMED 12 linear metres × AED 1400–2400; removal, fabrication, fixing and new top handrail included. Site measurement required.",
+              "source": "A-new"
+            },
+            {
+              "id": "wall_rail",
+              "label": "Replace wall-mounted stair handrail",
+              "lo": 2100,
+              "hi": 3900,
+              "basis": "ASSUMED 6 linear metres × AED 350–650; separate from open-edge balustrade.",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/11 Stair Gallery and Powder Room.png",
+          "note": ""
+        },
+        {
+          "id": "r12",
+          "title": "12 · Upstairs hall & master vestibule",
+          "items": [
+            {
+              "id": "linen",
+              "label": "Refurbish existing linen cupboards",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Retain existing carcasses; door / shelf repairs",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Landing and vestibule lighting",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "detail",
+              "label": "Hall mirror and local finishing details",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Door handles removed from this row and included once in whole-house door package",
+              "source": "A-new"
+            }
+          ],
+          "note": "Floors and ordinary paint included once in shared work."
+        },
+        {
+          "id": "r13",
+          "title": "13 · Master bedroom",
+          "items": [
+            {
+              "id": "head",
+              "label": "Oak / upholstered headboard",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "One bed wall",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bed",
+              "label": "Bed base and mattress",
+              "lo": 4000,
+              "hi": 8000,
+              "basis": "Allowance for new bed; omit if reusing",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "bedside",
+              "label": "Two bedside units",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "Compact ready-made or simple local joinery",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 2500,
+              "hi": 4500,
+              "basis": "Existing terrace opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "lights",
+              "label": "Bedside and ceiling lighting",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local wiring",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "soft",
+              "label": "Rug, bedding and framed print",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Artwork production allowance",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/07 Master Bedroom - Calm Oak.png",
+          "note": ""
+        },
+        {
+          "id": "r14",
+          "title": "14 · Master terrace",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Floor, drain and sealant touch-ups",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Approx. 2.80 × 1.30 m assumed; no full slab repair",
+              "source": "A"
+            },
+            {
+              "id": "seat",
+              "label": "Compact seating and small table",
+              "lo": 1200,
+              "hi": 2200,
+              "basis": "Small ready-made set",
+              "source": "A"
+            },
+            {
+              "id": "shade",
+              "label": "Compact shade provision",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Attachment / permissions to be checked",
+              "source": "A"
+            },
+            {
+              "id": "green",
+              "label": "Planter and lighting",
+              "lo": 500,
+              "hi": 1200,
+              "basis": "Limited items, keep drainage clear",
+              "source": "A"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "id": "r15",
+          "title": "15 · Master walk-in closet",
+          "items": [
+            {
+              "id": "joinery",
+              "label": "L-shaped wardrobe re-fit",
+              "lo": 7500,
+              "hi": 14000,
+              "basis": "Approx. 4 linear metres; oak veneer / quality laminate",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "light",
+              "label": "Integrated lighting and mirror",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Fittings and local electrical work",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/10 Laundry Storage and Walk-in.png",
+          "note": ""
+        },
+        {
+          "id": "r16",
+          "title": "16 · Master bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip-out, protection and disposal",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Master bathroom only",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "waterproof",
+              "label": "Wet-area preparation and waterproofing",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Approx. 5.3 m² floor plus wet walls",
+              "source": "S2",
+              "zone": ""
+            },
+            {
+              "id": "tile",
+              "label": "Wall + floor tiling",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "Approx. 25–30 m² tiled surfaces; allowance",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "vanity",
+              "label": "Vanity and illuminated mirrored storage",
+              "lo": 5000,
+              "hi": 8500,
+              "basis": "One compact custom unit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wc",
+              "label": "Integrated bidet WC with connections",
+              "lo": 5000,
+              "hi": 12000,
+              "basis": "Product/brand not selected; provisional supply + fit",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, electrical and ventilation alterations",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Retain service zones; no whole-house replumb",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "door",
+              "label": "Sliding door and local making good",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Surface slider allowance; pocket wall feasibility unresolved",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "wetfixture",
+              "label": "Shower glass, drain and shower fittings",
+              "lo": 5500,
+              "hi": 9500,
+              "basis": "Bath removed; rear wet zone rebuilt",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "note": "Integrated bidet WC and sliding door allowance; survey wall and plumbing constraints."
+        },
+        {
+          "id": "r17",
+          "title": "17 · Family bathroom",
+          "items": [
+            {
+              "id": "strip",
+              "label": "Strip out existing finishes and fittings",
+              "lo": 2000,
+              "hi": 3500,
+              "basis": "Existing compact Jack-and-Jill bathroom",
+              "source": "A"
+            },
+            {
+              "id": "waterproof",
+              "label": "Waterproofing and substrate preparation",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Wet zone, test and make good",
+              "source": "A"
+            },
+            {
+              "id": "tile",
+              "label": "Wall and floor tiling",
+              "lo": 5500,
+              "hi": 9000,
+              "basis": "Porcelain; measured take-off not available",
+              "source": "A"
+            },
+            {
+              "id": "vanity",
+              "label": "Double vanity, basins, taps and mirror",
+              "lo": 6500,
+              "hi": 11000,
+              "basis": "Keep double-basin arrangement",
+              "source": "A"
+            },
+            {
+              "id": "wc",
+              "label": "WC replacement",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Standard WC, existing position",
+              "source": "A"
+            },
+            {
+              "id": "shower",
+              "label": "Shower fittings and screen",
+              "lo": 4000,
+              "hi": 7000,
+              "basis": "Existing shower footprint",
+              "source": "A"
+            },
+            {
+              "id": "services",
+              "label": "Plumbing, ventilation and lighting",
+              "lo": 3000,
+              "hi": 5000,
+              "basis": "Local work; keep door routes clear",
+              "source": "A"
+            }
+          ],
+          "note": "Default: full renovation retaining layout and both access routes."
+        },
+        {
+          "id": "r18",
+          "title": "18 · Bedroom 2 / guest room",
+          "items": [
+            {
+              "id": "bed",
+              "label": "Compact sofa bed / guest bed",
+              "lo": 3500,
+              "hi": 6500,
+              "basis": "Flexible guest use, replacing existing sofa if desired",
+              "source": "A"
+            },
+            {
+              "id": "storage",
+              "label": "Wardrobe refresh and shallow storage",
+              "lo": 2000,
+              "hi": 4500,
+              "basis": "Retain viable existing storage; not a new full-wall wardrobe",
+              "source": "A"
+            },
+            {
+              "id": "curtains",
+              "label": "Curtains and tracks",
+              "lo": 1800,
+              "hi": 3200,
+              "basis": "Existing full-height opening",
+              "source": "A"
+            },
+            {
+              "id": "lights",
+              "label": "Light fitting and bedside/task light",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Existing points",
+              "source": "A"
+            },
+            {
+              "id": "soft",
+              "label": "Bedding, side table and framed photograph",
+              "lo": 1200,
+              "hi": 2400,
+              "basis": "One coordinated guest set",
+              "source": "A"
+            }
+          ],
+          "note": "Keep current window and room footprint. Dry flooring and paint are shared costs."
+        },
+        {
+          "id": "r19",
+          "title": "19 · Office",
+          "items": [
+            {
+              "id": "reuse",
+              "label": "Reuse office chair, screens, shelving and frames",
+              "lo": 500,
+              "hi": 1000,
+              "basis": "Existing desk replaced; new desk cable management included in desk accessories below",
+              "source": "A-new",
+              "zone": ""
+            },
+            {
+              "id": "curtain",
+              "label": "Curtain refresh",
+              "lo": 1500,
+              "hi": 2800,
+              "basis": "Existing opening",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "feature",
+              "label": "Accent wall and accessories",
+              "lo": 800,
+              "hi": 1600,
+              "basis": "Ordinary paint/floor already in shared works",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "large_desk",
+              "label": "Larger desk, approximately 180 × 80 cm",
+              "lo": 3000,
+              "hi": 5500,
+              "basis": "One quality desk, with sit-stand base allowance; finish selected to suit style. Project allowance, not quoted pictured product.",
+              "source": "DESK"
+            },
+            {
+              "id": "desk_accessories",
+              "label": "Monitor arms, cable tray and installation",
+              "lo": 600,
+              "hi": 1200,
+              "basis": "Two monitor supports, concealed tray and setup; no new monitors",
+              "source": "A-new"
+            },
+            {
+              "id": "desk_storage",
+              "label": "One slim drawer pedestal",
+              "lo": 600,
+              "hi": 1400,
+              "basis": "One separate storage unit; preserve knee space",
+              "source": "A-new"
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "r20",
+          "title": "20 · Office balcony",
+          "items": [
+            {
+              "id": "floor",
+              "label": "Balcony floor / local repairs",
+              "lo": 900,
+              "hi": 1600,
+              "basis": "2.79 m²; no structural slab work",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "chair",
+              "label": "One chair and coffee shelf",
+              "lo": 1200,
+              "hi": 2500,
+              "basis": "Compact ready-made furniture",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "shade",
+              "label": "Small retractable shade and fitting",
+              "lo": 2500,
+              "hi": 5000,
+              "basis": "Fixing details not verified",
+              "source": "A",
+              "zone": ""
+            },
+            {
+              "id": "plantlight",
+              "label": "Planter and light",
+              "lo": 700,
+              "hi": 1500,
+              "basis": "One compact set",
+              "source": "A",
+              "zone": ""
+            }
+          ],
+          "image": "../07 Earlier Concepts/12 Office and Balcony.png",
+          "note": ""
+        },
+        {
+          "id": "doors_new",
+          "title": "Whole-house internal doors and front-door finish",
+          "items": [
+            {
+              "id": "door_refinish",
+              "label": "Refinish six secondary doors and frames",
+              "lo": 3900,
+              "hi": 6600,
+              "basis": "6 × AED 650–1,100; excludes four replaced leaves",
+              "source": "A-new"
+            },
+            {
+              "id": "new_leaves",
+              "label": "Selected walnut-veneer replacement door leaves",
+              "lo": 14000,
+              "hi": 24000,
+              "basis": "4 assumed leaves × AED 3,500–6,000; reuse compatible sound frames. Not all doors are replaced.",
+              "source": "A-new"
+            },
+            {
+              "id": "hardware",
+              "label": "Coordinated internal door levers, hinges and latches",
+              "lo": 1800,
+              "hi": 3500,
+              "basis": "10 assumed sets × AED 180–350. Bathroom sliding-door hardware stays in bathroom package.",
+              "source": "A-new"
+            },
+            {
+              "id": "front_finish",
+              "label": "Front timber door: compatible repair/refinish",
+              "lo": 1500,
+              "hi": 3000,
+              "basis": "Finish refresh only. Smart lock remains in original foyer scope; full door replacement excluded.",
+              "source": "A-new"
+            }
+          ]
+        }
+      ],
+      "base": [
+        394085,
+        733736
+      ],
+      "cont": [
+        59112.75,
+        110060.4
+      ],
+      "vat": [
+        22659.887499999997,
+        42189.82
+      ],
+      "total": [
+        475857.63749999995,
+        885986.22
+      ],
+      "optionalBalcony": {
+        "id": "balcony_rails",
+        "label": "Optional coordinated balcony guard replacement",
+        "lo": 9600,
+        "hi": 16800,
+        "basis": "ASSUMED 6 linear metres total for two balconies × AED 1600–2800; outdoor materials and fixings, subject to survey. Excluded from base.",
+        "source": "A-new"
+      },
+      "totalWithBalconies": [
+        487449.63749999995,
+        906272.22
+      ]
+    }
+  ]
+}
