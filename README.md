@@ -1,6 +1,6 @@
 # House design gallery
 
-Eleven whole-house renovation concepts, 73 whole-house image boards plus seven reference-inspired garden boards, room galleries, side-by-side comparisons, existing cost estimates and downloadable feedback.
+Sixteen whole-house renovation concepts, 108 whole-house image boards plus seven reference-inspired garden boards, room galleries, side-by-side comparisons, a favourites moodboard with share links, twelve dimensioned garden plans, itemized cost estimates and downloadable feedback.
 
 Plain static HTML, CSS and JavaScript. Open `index.html` locally, or use GitHub Pages from the root of the `main` branch. `.nojekyll` preserves the file structure.
 

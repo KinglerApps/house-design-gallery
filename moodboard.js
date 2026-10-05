@@ -1,0 +1,35 @@
+﻿(()=>{
+'use strict';
+const D=JSON.parse(document.getElementById('mood-data').textContent),KEY='erik-moodboard-v1';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const valid=k=>D.items.some(i=>i.key===k);
+const clean=v=>({version:1,items:Array.isArray(v?.items)?[...new Map(v.items.filter(x=>valid(x.key)).map(x=>[x.key,{key:x.key,note:String(x.note||'').slice(0,1500)}])).values()]:[],kitchenNote:String(v?.kitchenNote??'None of the current kitchens selected — explore new layouts.').slice(0,1500)});
+let state=clean(D.seed),persistent=true,shared=false;
+try{const raw=localStorage.getItem(KEY);if(raw)state=clean(JSON.parse(raw));}catch{persistent=false;}
+if(location.hash.startsWith('#board=')){try{state=clean(JSON.parse(decodeURIComponent(location.hash.slice(7))));shared=true;history.replaceState(null,'',location.pathname+location.search);}catch{}}
+const get=k=>state.items.find(x=>x.key===k);
+function save(){try{localStorage.setItem(KEY,JSON.stringify(state));persistent=true;}catch{persistent=false;}updateButtons();const status=document.getElementById('moodStatus');if(status)status.textContent=(shared?'Shared board loaded. ':'')+(persistent?'Saved in this browser. Use Share or Export to move it to another device.':'Browser saving unavailable. Export or copy a share link to keep this board.');}
+function toggle(key){if(get(key))state.items=state.items.filter(x=>x.key!==key);else state.items.push({key,note:''});save();render();}
+function updateButtons(){document.querySelectorAll('[data-favourite]').forEach(b=>{const yes=!!get(b.dataset.favourite);b.textContent=yes?'♥ Saved to moodboard':'♡ Save to moodboard';b.setAttribute('aria-pressed',String(yes));});}
+function button(key){const b=document.createElement('button');b.type='button';b.dataset.favourite=key;b.onclick=()=>toggle(key);return b;}
+function crop(i){const [x,y,w,h]=i.crop;return '<svg viewBox="'+[x,y,w,h].join(' ')+'" role="img" aria-label="'+esc(i.room+' — '+i.name)+'"><defs><clipPath id="mood-'+i.key+'"><rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'"/></clipPath></defs><image clip-path="url(#mood-'+i.key+')" href="'+i.image+'" width="'+i.width+'" height="'+i.height+'"/></svg>';}
+function render(){const grid=document.getElementById('moodGrid');if(!grid)return;const filter=document.getElementById('moodFilter').value;grid.innerHTML='';for(const room of D.rooms){const list=state.items.filter(s=>D.items.find(i=>i.key===s.key)?.roomId===room[0]);if(filter&&filter!==room[0])continue;if(!list.length)continue;const section=document.createElement('section');section.className='mood-section';section.innerHTML='<h2>'+esc(room[1])+'</h2><div class="mood-cards"></div>';for(const selected of list){const i=D.items.find(i=>i.key===selected.key),card=document.createElement('article');card.className='mood-card';card.innerHTML='<a class="mood-picture" href="'+D.prefix+i.page+'#'+i.area+'">'+crop(i)+'</a><div class="mood-copy"><span class="eyebrow">Design '+esc(i.style)+'</span><h3>'+esc(i.name)+'</h3><label>What I like<textarea maxlength="1500" placeholder="Furniture, layout, lighting, materials…">'+esc(selected.note)+'</textarea></label><div class="toolbar"><a href="'+D.prefix+i.page+'#'+i.area+'">Open design</a><button type="button" data-remove>Remove</button></div></div>';card.querySelector('textarea').oninput=e=>{selected.note=e.target.value;save();};card.querySelector('[data-remove]').onclick=()=>toggle(i.key);section.querySelector('.mood-cards').append(card);}grid.append(section);}document.getElementById('moodCount').textContent=state.items.length+' saved details from different styles';document.getElementById('moodEmpty').hidden=state.items.length>0;document.getElementById('kitchenNote').value=state.kitchenNote;updateButtons();}
+function addControls(){if(document.getElementById('allGrid')){const room=document.getElementById('allRoom').value;document.querySelectorAll('.room-card').forEach(card=>{if(card.querySelector('[data-favourite]'))return;const style=card.querySelector('.eyebrow')?.textContent.replace('Design ','').trim(),key=room+':'+style;if(valid(key)){const b=button(key);b.className='mood-save';card.querySelector('.info').append(b);}});}
+const host=document.getElementById('detailFavourite');if(host){const area=location.hash.slice(1)||D.defaultArea||'A';host.innerHTML='';const items=D.items.filter(i=>i.style===D.style&&i.area===area);for(const i of items){const wrap=document.createElement('div');wrap.className='mood-detail';const label=document.createElement('span');label.textContent=i.room;wrap.append(label,button(i.key));host.append(wrap);}}updateButtons();}
+if(document.getElementById('moodGrid')){
+ const room=document.getElementById('addMoodRoom'),style=document.getElementById('addMoodStyle');
+ function choices(){style.innerHTML=D.items.filter(i=>i.roomId===room.value).map(i=>'<option value="'+i.key+'">'+esc(i.style+' · '+i.name)+'</option>').join('');}
+ room.onchange=choices;choices();
+ document.getElementById('addMood').onclick=()=>{if(!get(style.value))state.items.push({key:style.value,note:document.getElementById('addMoodNote').value.slice(0,1500)});document.getElementById('addMoodNote').value='';save();render();};
+ document.getElementById('moodFilter').onchange=render;document.getElementById('kitchenNote').oninput=e=>{state.kitchenNote=e.target.value;save();};
+ const download=(name,text,type)=>{const u=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);};
+ document.getElementById('exportMood').onclick=()=>download('Erik Moodboard.json',JSON.stringify(state,null,2),'application/json');
+ document.getElementById('importMood').onchange=async e=>{try{state=clean(JSON.parse(await e.target.files[0].text()));save();render();}catch{document.getElementById('moodStatus').textContent='Could not read this moodboard file.';}e.target.value='';};
+ document.getElementById('shareMood').onclick=async()=>{const base=location.protocol==='file:'?'https://kinglerapps.github.io/house-design-gallery/Favourites%20Moodboard.html':new URL('Favourites%20Moodboard.html',location.href).href;const link=base+'#board='+encodeURIComponent(JSON.stringify(state));const field=document.getElementById('shareMoodLink');field.hidden=false;field.value=link;try{await navigator.clipboard.writeText(link);document.getElementById('moodStatus').textContent='Moodboard link copied — it includes your selections and notes.';}catch{field.select();document.getElementById('moodStatus').textContent='Copy the selected link to share this moodboard.';}};
+ document.getElementById('printMood').onclick=()=>window.print();
+ render();save();
+}
+addControls();window.addEventListener('hashchange',addControls);window.addEventListener('storage',e=>{if(e.key===KEY){try{state=clean(JSON.parse(e.newValue));render();addControls();}catch{}}});
+const compareGrid=document.getElementById('allGrid');if(compareGrid)new MutationObserver(()=>addControls()).observe(compareGrid,{childList:true});
+})();
+
