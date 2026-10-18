@@ -1,6 +1,6 @@
 # House design gallery
 
-Twenty-six whole-house renovation concepts, 178 whole-house image boards plus seven reference-inspired garden boards and the 20 supplied Maple 2 reference photos with the source PDF, room galleries, side-by-side comparisons, a favourites moodboard with share links, 22 dimensioned garden plans, the original floor-plan PDF and interactive 2D/3D house model, itemized cost estimates and downloadable feedback.
+Twenty-six whole-house renovation concepts, 178 whole-house image boards plus seven reference-inspired garden boards and the 20 supplied Maple 2 reference photos with the source PDF, room galleries, side-by-side comparisons, a favourites moodboard with share links, 22 dimensioned garden plans, the original floor-plan PDF and interactive 2D/3D house model, a three-style design walkthrough, a separate Photorealistic tab with 12 new fixed room reconstructions for Roman Luxury and Boutique Hotel plus access to existing room references, itemized cost estimates and downloadable feedback.
 
 Plain static HTML, CSS and JavaScript. Open `index.html` locally, or use GitHub Pages from the root of the `main` branch. `.nojekyll` preserves the file structure.
 
