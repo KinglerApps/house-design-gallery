@@ -10,6 +10,6 @@ The public site contains only the curated review package. Original house photogr
 
 ## Shopping list
 
-[Shopping List.html](Shopping%20List.html#garden-tables) contains a separate garden dining tables section with 20 UAE options, prices, dimensions, material notes and retailer links. Search, shape filters and price sorting are available. Prices were researched on 4 November 2026 and need confirmation at checkout.
+[Shopping List.html](Shopping%20List.html#garden-tables) contains 20 oval and elliptical garden dining designs in concrete, microcement, ceramic and stone. The comparison distinguishes the planned 180 × 90 cm footprint, custom-size candidates, compact alternatives and larger options. Quote-only products and unconfirmed UAE supply are labelled. Prices and source pages were reviewed on 5 November 2026.
 
-[Garden Table Options.html](Garden%20Table%20Options.html) is the self-contained HTML export for downloading or sharing. Its buying links work without JavaScript. Shopping list is available throughout the main gallery navigation.
+[Garden Table Options.html](Garden%20Table%20Options.html) is the self-contained HTML export for downloading or sharing. Product and supplier links open in new tabs and work without JavaScript. Search, footprint/material filters, and price sorting are available.
