@@ -7,3 +7,9 @@ Plain static HTML, CSS and JavaScript. Open `index.html` locally, or use GitHub 
 Concept visuals and planning allowances are for review, not surveyed construction drawings or contractor quotations.
 
 The public site contains only the curated review package. Original house photographs, measurement spreadsheets, briefs, generation prompts and maintenance scripts are kept outside this repository.
+
+## Shopping list
+
+[Shopping List.html](Shopping%20List.html#garden-tables) contains a separate garden dining tables section with 20 UAE options, prices, dimensions, material notes and retailer links. Search, shape filters and price sorting are available. Prices were researched on 4 November 2026 and need confirmation at checkout.
+
+[Garden Table Options.html](Garden%20Table%20Options.html) is the self-contained HTML export for downloading or sharing. Its buying links work without JavaScript. Shopping list is available throughout the main gallery navigation.
